@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+    "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
+    "contextLength": 1048576
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "xiaomi",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 4.35,
+      "output": 8.7,
+      "cacheRead": 0.036,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 5.655,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 1048576,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/xiaomi/mimo-v2.6-pro-ultraspeed/providers/default.json"
+    }
+  ]
+}

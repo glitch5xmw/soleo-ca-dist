@@ -1,0 +1,44 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "nvidia/nemotron-3.5-super-vl",
+    "name": "NVIDIA: Nemotron 3.5 Super VL",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "Io Net",
+    "tag": "io-net/nvfp4",
+    "key": "io-net~nvfp4",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.09,
+    "output": 0.3,
+    "cacheRead": 0.012,
+    "cacheWrite": null,
+    "discount": 0.4,
+    "blended": 0.153,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/nvidia/nemotron-3.5-super-vl/providers/io-net~nvfp4.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.09,
+        "output": 0.3,
+        "cacheRead": 0.012
+      },
+      "discount": 0.4
+    }
+  ]
+}

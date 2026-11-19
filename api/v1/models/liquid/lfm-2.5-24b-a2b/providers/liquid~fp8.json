@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "liquid/lfm-2.5-24b-a2b",
+    "name": "LiquidAI: LFM2.5-24B-A2B",
+    "contextLength": 128000
+  },
+  "provider": {
+    "provider": "Liquid",
+    "tag": "liquid/fp8",
+    "key": "liquid~fp8",
+    "name": "Liquid | liquid/lfm-2.5-24b-a2b-20261012",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.05,
+    "output": 0.7,
+    "cacheRead": 0.025,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.245,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 128000,
+    "maxCompletionTokens": 8192,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/liquid/lfm-2.5-24b-a2b/providers/liquid~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.05,
+        "output": 0.7,
+        "cacheRead": 0.025
+      }
+    }
+  ]
+}

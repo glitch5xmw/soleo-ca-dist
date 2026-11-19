@@ -1,0 +1,60 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "openai/gpt-5.1-codex",
+    "name": "OpenAI: GPT-5.1-Codex",
+    "contextLength": 400000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "openai",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 1.25,
+      "output": 10,
+      "cacheRead": 0.13,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 3.875,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 400000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/openai/gpt-5.1-codex/providers/default.json"
+    },
+    {
+      "provider": "Azure",
+      "tag": "azure",
+      "key": "azure",
+      "name": "Azure | openai/gpt-5.1-codex-20251113",
+      "quantization": "unknown",
+      "serviceTier": null,
+      "input": 1.25,
+      "output": 10,
+      "cacheRead": 0.13,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 3.875,
+      "throughput": null,
+      "latency": null,
+      "uptime": 100,
+      "contextLength": 400000,
+      "maxCompletionTokens": 128000,
+      "supportsImplicitCaching": true,
+      "status": 0,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:01:45.728Z",
+      "detail": "models/openai/gpt-5.1-codex/providers/azure.json"
+    }
+  ]
+}

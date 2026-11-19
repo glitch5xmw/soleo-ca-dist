@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "deepseek/deepseek-v4.1-flash:batch",
+    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "Together",
+    "tag": "together",
+    "key": "together",
+    "name": "Together | deepseek/deepseek-v4.1-flash-20260910:batch",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 0.15,
+    "output": 0.6,
+    "cacheRead": 0.003,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.285,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1048576,
+    "maxCompletionTokens": 943718,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/deepseek/deepseek-v4.1-flash~batch/providers/together.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.15,
+        "output": 0.6,
+        "cacheRead": 0.003
+      }
+    }
+  ]
+}

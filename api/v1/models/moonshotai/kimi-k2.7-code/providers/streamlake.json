@@ -1,0 +1,44 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "moonshotai/kimi-k2.7-code",
+    "name": "MoonshotAI: Kimi K2.7 Code",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "StreamLake",
+    "tag": "streamlake",
+    "key": "streamlake",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.7125,
+    "output": 3,
+    "cacheRead": 0.1425,
+    "cacheWrite": null,
+    "discount": 0.25,
+    "blended": 1.39875,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/moonshotai/kimi-k2.7-code/providers/streamlake.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.7125,
+        "output": 3,
+        "cacheRead": 0.1425
+      },
+      "discount": 0.25
+    }
+  ]
+}

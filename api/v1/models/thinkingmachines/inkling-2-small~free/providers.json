@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "thinkingmachines/inkling-2-small:free",
+    "name": "Thinking Machines: Inkling 2 Small (free)",
+    "contextLength": 1048576
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "thinkingmachines",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0,
+      "output": 0,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 1048576,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/thinkingmachines/inkling-2-small~free/providers/default.json"
+    }
+  ]
+}

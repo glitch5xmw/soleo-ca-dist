@@ -1,0 +1,44 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "google/gemini-4-argon",
+    "name": "Google: Gemini 4 Argon",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "Google",
+    "tag": "google-vertex/us",
+    "key": "google-vertex~us",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 2.2,
+    "output": 11,
+    "cacheRead": 0.11,
+    "cacheWrite": null,
+    "discount": 0.5,
+    "blended": 4.84,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/google/gemini-4-argon/providers/google-vertex~us.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 2.2,
+        "output": 11,
+        "cacheRead": 0.11
+      },
+      "discount": 0.5
+    }
+  ]
+}

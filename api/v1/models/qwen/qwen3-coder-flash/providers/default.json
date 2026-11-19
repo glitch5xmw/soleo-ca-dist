@@ -1,0 +1,59 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "qwen/qwen3-coder-flash",
+    "name": "Qwen: Qwen3 Coder Flash",
+    "contextLength": 1000000
+  },
+  "provider": {
+    "provider": "qwen",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.195,
+    "output": 0.975,
+    "cacheRead": 0.039,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.429,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1000000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 3,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/qwen/qwen3-coder-flash/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.195,
+        "output": 0.975,
+        "cacheRead": 0.039
+      }
+    },
+    {
+      "minContextTokens": 32000,
+      "pricing": {
+        "input": 0.325,
+        "output": 1.625,
+        "cacheRead": 0.065
+      }
+    },
+    {
+      "minContextTokens": 128000,
+      "pricing": {
+        "input": 0.52,
+        "output": 2.6,
+        "cacheRead": 0.104
+      }
+    }
+  ]
+}

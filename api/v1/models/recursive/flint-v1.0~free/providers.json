@@ -1,0 +1,60 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "recursive/flint-v1.0:free",
+    "name": "Recursive: Flint (free)",
+    "contextLength": 262144
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "recursive",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0,
+      "output": 0,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 262144,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/recursive/flint-v1.0~free/providers/default.json"
+    },
+    {
+      "provider": "Recursive",
+      "tag": "recursive/bf16",
+      "key": "recursive~bf16",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0,
+      "output": 0,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": null,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-17T23:52:23.322Z",
+      "detail": "models/recursive/flint-v1.0~free/providers/recursive~bf16.json"
+    }
+  ]
+}

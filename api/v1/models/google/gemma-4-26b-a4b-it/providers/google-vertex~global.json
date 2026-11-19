@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "Google",
+    "tag": "google-vertex/global",
+    "key": "google-vertex~global",
+    "name": "Google | google/gemma-4-26b-a4b-it-20260403",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 0.15,
+    "output": 0.6,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.285,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 262144,
+    "maxCompletionTokens": 32768,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/google/gemma-4-26b-a4b-it/providers/google-vertex~global.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.15,
+        "output": 0.6,
+        "cacheRead": null
+      }
+    }
+  ]
+}

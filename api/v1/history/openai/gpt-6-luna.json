@@ -1,0 +1,122 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "openai/gpt-6-luna",
+    "name": "OpenAI: GPT-6 Luna"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 0.22,
+      "median": 0.22,
+      "trimmedMedian": 0.22,
+      "providers": [
+        {
+          "provider": "openai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.22
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.22,
+      "median": 0.22,
+      "trimmedMedian": 0.22,
+      "providers": [
+        {
+          "provider": "OpenAI",
+          "tag": "openai",
+          "key": "openai",
+          "blended": 0.22
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 5,
+      "min": 0.11,
+      "median": 0.22,
+      "trimmedMedian": 0.22,
+      "providers": [
+        {
+          "provider": "OpenAI",
+          "tag": "openai/flex",
+          "key": "openai~flex",
+          "blended": 0.11
+        },
+        {
+          "provider": "Amazon Bedrock",
+          "tag": "amazon-bedrock/global",
+          "key": "amazon-bedrock~global",
+          "blended": 0.22
+        },
+        {
+          "provider": "OpenAI",
+          "tag": "openai",
+          "key": "openai",
+          "blended": 0.22
+        },
+        {
+          "provider": "Azure",
+          "tag": "azure",
+          "key": "azure",
+          "blended": 0.22
+        },
+        {
+          "provider": "OpenAI",
+          "tag": "openai/fast",
+          "key": "openai~fast",
+          "blended": 0.44
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 5,
+      "min": 0.11,
+      "median": 0.22,
+      "trimmedMedian": 0.22,
+      "providers": [
+        {
+          "provider": "OpenAI",
+          "tag": "openai/flex",
+          "key": "openai~flex",
+          "blended": 0.11
+        },
+        {
+          "provider": "Amazon Bedrock",
+          "tag": "amazon-bedrock/global",
+          "key": "amazon-bedrock~global",
+          "blended": 0.22
+        },
+        {
+          "provider": "OpenAI",
+          "tag": "openai",
+          "key": "openai",
+          "blended": 0.22
+        },
+        {
+          "provider": "Azure",
+          "tag": "azure",
+          "key": "azure",
+          "blended": 0.22
+        },
+        {
+          "provider": "OpenAI",
+          "tag": "openai/fast",
+          "key": "openai~fast",
+          "blended": 0.44
+        }
+      ]
+    }
+  ]
+}

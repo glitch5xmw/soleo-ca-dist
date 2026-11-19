@@ -1,0 +1,104 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 0.71,
+      "median": 0.71,
+      "trimmedMedian": 0.71,
+      "providers": [
+        {
+          "provider": "meta-llama",
+          "tag": null,
+          "key": "default",
+          "blended": 0.71
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.71,
+      "median": 0.71,
+      "trimmedMedian": 0.71,
+      "providers": [
+        {
+          "provider": "meta-llama",
+          "tag": null,
+          "key": "default",
+          "blended": 0.71
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 6,
+      "min": 0.166,
+      "median": 0.477,
+      "trimmedMedian": 0.304,
+      "providers": [
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/turbo",
+          "key": "deepinfra~turbo",
+          "blended": 0.166
+        },
+        {
+          "provider": "AkashML",
+          "tag": "akashml/fp8",
+          "key": "akashml~fp8",
+          "blended": 0.296
+        },
+        {
+          "provider": "Parasail",
+          "tag": "parasail/fp8",
+          "key": "parasail~fp8",
+          "blended": 0.304
+        },
+        {
+          "provider": "Cloudflare",
+          "tag": "cloudflare/fp8",
+          "key": "cloudflare~fp8",
+          "blended": 0.881
+        },
+        {
+          "provider": "Groq",
+          "tag": "groq",
+          "key": "groq",
+          "blended": 0.65
+        },
+        {
+          "provider": "CoreWeave",
+          "tag": "coreweave/fp16",
+          "key": "coreweave~fp16",
+          "blended": 0.71
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.71,
+      "median": 0.71,
+      "trimmedMedian": 0.71,
+      "providers": [
+        {
+          "provider": "meta-llama",
+          "tag": null,
+          "key": "default",
+          "blended": 0.71
+        }
+      ]
+    }
+  ]
+}

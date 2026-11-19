@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "tencent/hy4-preview",
+    "name": "Tencent: Hy4 preview",
+    "contextLength": 1048576
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "tencent",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.834,
+      "output": 2.501,
+      "cacheRead": 0.042,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 1.3341,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 1048576,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/tencent/hy4-preview/providers/default.json"
+    }
+  ]
+}

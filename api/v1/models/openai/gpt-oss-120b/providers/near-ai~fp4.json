@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-oss-120b",
+    "name": "OpenAI: gpt-oss-120b",
+    "contextLength": 131072
+  },
+  "provider": {
+    "provider": "Near AI",
+    "tag": "near-ai/fp4",
+    "key": "near-ai~fp4",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.03,
+    "output": 0.15,
+    "cacheRead": 0.015,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.066,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/openai/gpt-oss-120b/providers/near-ai~fp4.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.03,
+        "output": 0.15,
+        "cacheRead": 0.015
+      }
+    }
+  ]
+}

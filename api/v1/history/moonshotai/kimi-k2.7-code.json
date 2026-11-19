@@ -1,0 +1,134 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "moonshotai/kimi-k2.7-code",
+    "name": "MoonshotAI: Kimi K2.7 Code"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 11,
+      "min": 1.32,
+      "median": 1.7904,
+      "trimmedMedian": 1.741412,
+      "providers": [
+        {
+          "provider": "CoreWeave",
+          "tag": "coreweave/int4",
+          "key": "coreweave~int4",
+          "blended": 1.32
+        },
+        {
+          "provider": "Inceptron",
+          "tag": "inceptron/int4",
+          "key": "inceptron~int4",
+          "blended": 1.615
+        },
+        {
+          "provider": "StreamLake",
+          "tag": "streamlake",
+          "key": "streamlake",
+          "blended": 1.39875
+        },
+        {
+          "provider": "Venice",
+          "tag": "venice/int4",
+          "key": "venice~int4",
+          "blended": 1.575
+        },
+        {
+          "provider": "SiliconFlow",
+          "tag": "siliconflow/fp8",
+          "key": "siliconflow~fp8",
+          "blended": 1.741412
+        },
+        {
+          "provider": "Novita",
+          "tag": "novita/int4",
+          "key": "novita~int4",
+          "blended": 1.7904
+        },
+        {
+          "provider": "GMICloud",
+          "tag": "gmicloud/fp8",
+          "key": "gmicloud~fp8",
+          "blended": 1.865
+        },
+        {
+          "provider": "Alibaba",
+          "tag": "alibaba/fp8",
+          "key": "alibaba~fp8",
+          "blended": 1.865
+        },
+        {
+          "provider": "Cloudflare",
+          "tag": "cloudflare",
+          "key": "cloudflare",
+          "blended": 1.865
+        },
+        {
+          "provider": "Moonshot AI",
+          "tag": "moonshotai",
+          "key": "moonshotai",
+          "blended": 1.865
+        },
+        {
+          "provider": "Moonshot AI",
+          "tag": "moonshotai/highspeed",
+          "key": "moonshotai~highspeed",
+          "blended": 3.73
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 1.615,
+      "median": 1.615,
+      "trimmedMedian": 1.615,
+      "providers": [
+        {
+          "provider": "moonshotai",
+          "tag": null,
+          "key": "default",
+          "blended": 1.615
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 1.47,
+      "median": 1.47,
+      "trimmedMedian": 1.47,
+      "providers": [
+        {
+          "provider": "moonshotai",
+          "tag": null,
+          "key": "default",
+          "blended": 1.47
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 1.47,
+      "median": 1.47,
+      "trimmedMedian": 1.47,
+      "providers": [
+        {
+          "provider": "moonshotai",
+          "tag": null,
+          "key": "default",
+          "blended": 1.47
+        }
+      ]
+    }
+  ]
+}

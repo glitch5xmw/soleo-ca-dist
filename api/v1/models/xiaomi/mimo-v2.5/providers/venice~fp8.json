@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "xiaomi/mimo-v2.5",
+    "name": "Xiaomi: MiMo-V2.5",
+    "contextLength": 1000000
+  },
+  "provider": {
+    "provider": "Venice",
+    "tag": "venice/fp8",
+    "key": "venice~fp8",
+    "name": "Venice | xiaomi/mimo-v2.5-20260422",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.4,
+    "output": 2,
+    "cacheRead": 0.08,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.88,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 1000000,
+    "maxCompletionTokens": 65536,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/xiaomi/mimo-v2.5/providers/venice~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.4,
+        "output": 2,
+        "cacheRead": 0.08
+      }
+    }
+  ]
+}

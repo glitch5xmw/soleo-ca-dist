@@ -1,0 +1,51 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "anthropic/claude-sonnet-4.5:batch",
+    "name": "Anthropic: Claude Sonnet 4.5 (batch)",
+    "contextLength": 1000000
+  },
+  "provider": {
+    "provider": "anthropic",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 1.5,
+    "output": 7.5,
+    "cacheRead": 0.15,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 3.3,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1000000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 2,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/anthropic/claude-sonnet-4.5~batch/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 1.5,
+        "output": 7.5,
+        "cacheRead": 0.15
+      }
+    },
+    {
+      "minContextTokens": 200000,
+      "pricing": {
+        "input": 3,
+        "output": 11.25,
+        "cacheRead": 0.3
+      }
+    }
+  ]
+}

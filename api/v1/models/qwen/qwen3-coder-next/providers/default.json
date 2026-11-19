@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "qwen/qwen3-coder-next",
+    "name": "Qwen: Qwen3 Coder Next",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "qwen",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.12,
+    "output": 0.8,
+    "cacheRead": 0.07,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.324,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 262144,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/qwen/qwen3-coder-next/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.12,
+        "output": 0.8,
+        "cacheRead": 0.07
+      }
+    }
+  ]
+}

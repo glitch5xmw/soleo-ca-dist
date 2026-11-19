@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "Mistral",
+    "tag": "mistral/eu",
+    "key": "mistral~eu",
+    "name": "Mistral | z-ai/glm-5.2-20260616",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 1.54,
+    "output": 4.84,
+    "cacheRead": 0.154,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 2.53,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 1048576,
+    "maxCompletionTokens": 128000,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/z-ai/glm-5.2/providers/mistral~eu.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 1.54,
+        "output": 4.84,
+        "cacheRead": 0.154
+      }
+    }
+  ]
+}

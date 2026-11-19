@@ -1,0 +1,44 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "xiaomi/mimo-v2.6-flash",
+    "name": "Xiaomi: MiMo-V2.6-Flash",
+    "contextLength": 1050000
+  },
+  "provider": {
+    "provider": "GMICloud",
+    "tag": "gmicloud/bf16",
+    "key": "gmicloud~bf16",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.112,
+    "output": 0.224,
+    "cacheRead": 0.0024,
+    "cacheWrite": null,
+    "discount": 0.2,
+    "blended": 0.1456,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/xiaomi/mimo-v2.6-flash/providers/gmicloud~bf16.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.112,
+        "output": 0.224,
+        "cacheRead": 0.0024
+      },
+      "discount": 0.2
+    }
+  ]
+}

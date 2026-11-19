@@ -1,0 +1,51 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-6.1-sol-pro",
+    "name": "OpenAI: GPT-6.1 Sol Pro",
+    "contextLength": 1050000
+  },
+  "provider": {
+    "provider": "openai",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 2,
+    "output": 10,
+    "cacheRead": 0.1,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 4.4,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1050000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 2,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/openai/gpt-6.1-sol-pro/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 2,
+        "output": 10,
+        "cacheRead": 0.1
+      }
+    },
+    {
+      "minContextTokens": 272000,
+      "pricing": {
+        "input": 4,
+        "output": 15,
+        "cacheRead": 0.2
+      }
+    }
+  ]
+}

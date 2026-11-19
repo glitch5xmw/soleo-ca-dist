@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "Parasail",
+    "tag": "parasail/fp4",
+    "key": "parasail~fp4",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.15,
+    "output": 0.5,
+    "cacheRead": 0.03,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.255,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/z-ai/glm-5.3-flash/providers/parasail~fp4.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.15,
+        "output": 0.5,
+        "cacheRead": 0.03
+      }
+    }
+  ]
+}

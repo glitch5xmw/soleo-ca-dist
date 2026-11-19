@@ -1,0 +1,74 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "cohere/command-r7b-12-2024",
+    "name": "Cohere: Command R7B (12-2024)"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 0.07125,
+      "median": 0.07125,
+      "trimmedMedian": 0.07125,
+      "providers": [
+        {
+          "provider": "cohere",
+          "tag": null,
+          "key": "default",
+          "blended": 0.07125
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.07125,
+      "median": 0.07125,
+      "trimmedMedian": 0.07125,
+      "providers": [
+        {
+          "provider": "cohere",
+          "tag": null,
+          "key": "default",
+          "blended": 0.07125
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 0.07125,
+      "median": 0.07125,
+      "trimmedMedian": 0.07125,
+      "providers": [
+        {
+          "provider": "Cohere",
+          "tag": "cohere",
+          "key": "cohere",
+          "blended": 0.07125
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.07125,
+      "median": 0.07125,
+      "trimmedMedian": 0.07125,
+      "providers": [
+        {
+          "provider": "cohere",
+          "tag": null,
+          "key": "default",
+          "blended": 0.07125
+        }
+      ]
+    }
+  ]
+}

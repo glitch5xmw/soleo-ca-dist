@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "google/gemma-4-31b-it:free",
+    "name": "Google: Gemma 4 31B (free)",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "google",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0,
+    "output": 0,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 262144,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/google/gemma-4-31b-it~free/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0,
+        "output": 0,
+        "cacheRead": null
+      }
+    }
+  ]
+}

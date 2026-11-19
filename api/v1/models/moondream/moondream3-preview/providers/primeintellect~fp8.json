@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "moondream/moondream3-preview",
+    "name": "Moondream: Moondream 3 Preview",
+    "contextLength": 32000
+  },
+  "provider": {
+    "provider": "PrimeIntellect",
+    "tag": "primeintellect/fp8",
+    "key": "primeintellect~fp8",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.3,
+    "output": 2.5,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.96,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/moondream/moondream3-preview/providers/primeintellect~fp8.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.3,
+        "output": 2.5,
+        "cacheRead": null
+      }
+    }
+  ]
+}

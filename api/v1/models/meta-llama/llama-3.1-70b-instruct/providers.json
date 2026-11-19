@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "meta-llama/llama-3.1-70b-instruct",
+    "name": "Meta: Llama 3.1 70B Instruct",
+    "contextLength": 131072
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "meta-llama",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.72,
+      "output": 0.72,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.72,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 131072,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/meta-llama/llama-3.1-70b-instruct/providers/default.json"
+    }
+  ]
+}

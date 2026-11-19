@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "mistralai/mixtral-8x22b-instruct",
+    "name": "Mistral: Mixtral 8x22B Instruct",
+    "contextLength": 65536
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "mistralai",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 2,
+      "output": 6,
+      "cacheRead": 0.2,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 3.2,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 65536,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/mistralai/mixtral-8x22b-instruct/providers/default.json"
+    }
+  ]
+}

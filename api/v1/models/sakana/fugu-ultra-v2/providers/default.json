@@ -1,0 +1,51 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "sakana/fugu-ultra-v2",
+    "name": "Sakana: Fugu Ultra v2",
+    "contextLength": 1000000
+  },
+  "provider": {
+    "provider": "sakana",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 5,
+    "output": 30,
+    "cacheRead": 0.5,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 12.5,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1000000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 2,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/sakana/fugu-ultra-v2/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 5,
+        "output": 30,
+        "cacheRead": 0.5
+      }
+    },
+    {
+      "minContextTokens": 272000,
+      "pricing": {
+        "input": 10,
+        "output": 45,
+        "cacheRead": 1
+      }
+    }
+  ]
+}

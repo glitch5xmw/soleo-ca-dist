@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "perceptron/perceptron-mk1",
+    "name": "Perceptron: Perceptron Mk1",
+    "contextLength": 32768
+  },
+  "provider": {
+    "provider": "perceptron",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.15,
+    "output": 1.5,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.555,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 32768,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/perceptron/perceptron-mk1/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.15,
+        "output": 1.5,
+        "cacheRead": null
+      }
+    }
+  ]
+}

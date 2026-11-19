@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openrouter/fusion",
+    "name": "OpenRouter: Fusion",
+    "contextLength": 1000000
+  },
+  "provider": {
+    "provider": "openrouter",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": -1000000,
+    "output": -1000000,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": -1000000,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1000000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/openrouter/fusion/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": -1000000,
+        "output": -1000000,
+        "cacheRead": null
+      }
+    }
+  ]
+}

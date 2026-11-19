@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-oss-120b",
+    "name": "OpenAI: gpt-oss-120b",
+    "contextLength": 131072
+  },
+  "provider": {
+    "provider": "Parasail",
+    "tag": "parasail/fast",
+    "key": "parasail~fast",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.15,
+    "output": 0.75,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.33,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/openai/gpt-oss-120b/providers/parasail~fast.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.15,
+        "output": 0.75,
+        "cacheRead": null
+      }
+    }
+  ]
+}

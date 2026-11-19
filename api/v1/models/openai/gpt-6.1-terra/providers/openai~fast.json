@@ -1,0 +1,51 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-6.1-terra",
+    "name": "OpenAI: GPT-6.1 Terra",
+    "contextLength": 1050000
+  },
+  "provider": {
+    "provider": "OpenAI",
+    "tag": "openai/fast",
+    "key": "openai~fast",
+    "name": "OpenAI | openai/gpt-6.1-terra-20261026",
+    "quantization": "unknown",
+    "serviceTier": "priority",
+    "input": 2,
+    "output": 10,
+    "cacheRead": 0.1,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 4.4,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 1050000,
+    "maxCompletionTokens": 128000,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 2,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/openai/gpt-6.1-terra/providers/openai~fast.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 2,
+        "output": 10,
+        "cacheRead": 0.1
+      }
+    },
+    {
+      "minContextTokens": 272000,
+      "pricing": {
+        "input": 4,
+        "output": 15,
+        "cacheRead": 0.2
+      }
+    }
+  ]
+}

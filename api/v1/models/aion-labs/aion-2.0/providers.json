@@ -1,0 +1,60 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "aion-labs/aion-2.0",
+    "name": "AionLabs: Aion-2.0",
+    "contextLength": 131072
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "aion-labs",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.8,
+      "output": 1.6,
+      "cacheRead": 0.2,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 1.04,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 131072,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/aion-labs/aion-2.0/providers/default.json"
+    },
+    {
+      "provider": "AionLabs",
+      "tag": "aion-labs",
+      "key": "aion-labs",
+      "name": "AionLabs | aion-labs/aion-2.0-20260223",
+      "quantization": "unknown",
+      "serviceTier": null,
+      "input": 0.8,
+      "output": 1.6,
+      "cacheRead": 0.2,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 1.04,
+      "throughput": null,
+      "latency": null,
+      "uptime": 100,
+      "contextLength": 131072,
+      "maxCompletionTokens": 32768,
+      "supportsImplicitCaching": true,
+      "status": 0,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:01:45.728Z",
+      "detail": "models/aion-labs/aion-2.0/providers/aion-labs.json"
+    }
+  ]
+}

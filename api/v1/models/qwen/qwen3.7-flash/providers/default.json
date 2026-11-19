@@ -1,0 +1,59 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "qwen/qwen3.7-flash",
+    "name": "Qwen: Qwen3.7 Flash",
+    "contextLength": 1000000
+  },
+  "provider": {
+    "provider": "qwen",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.03,
+    "output": 0.13,
+    "cacheRead": 0.006,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.06,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1000000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 3,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/qwen/qwen3.7-flash/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.03,
+        "output": 0.13,
+        "cacheRead": 0.006
+      }
+    },
+    {
+      "minContextTokens": 32000,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.4,
+        "cacheRead": 0.02
+      }
+    },
+    {
+      "minContextTokens": 256000,
+      "pricing": {
+        "input": 0.2,
+        "output": 0.8,
+        "cacheRead": 0.04
+      }
+    }
+  ]
+}

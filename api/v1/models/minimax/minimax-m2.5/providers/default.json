@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "minimax/minimax-m2.5",
+    "name": "MiniMax: MiniMax M2.5",
+    "contextLength": 198000
+  },
+  "provider": {
+    "provider": "minimax",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.295,
+    "output": 1.2,
+    "cacheRead": 0.06,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.5665,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 198000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/minimax/minimax-m2.5/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.295,
+        "output": 1.2,
+        "cacheRead": 0.06
+      }
+    }
+  ]
+}

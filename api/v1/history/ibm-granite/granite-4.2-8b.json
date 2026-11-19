@@ -1,0 +1,80 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "ibm-granite/granite-4.2-8b",
+    "name": "IBM: Granite 4.2 8B"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 0.087,
+      "median": 0.087,
+      "trimmedMedian": 0.087,
+      "providers": [
+        {
+          "provider": "ibm-granite",
+          "tag": null,
+          "key": "default",
+          "blended": 0.087
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.087,
+      "median": 0.087,
+      "trimmedMedian": 0.087,
+      "providers": [
+        {
+          "provider": "ibm-granite",
+          "tag": null,
+          "key": "default",
+          "blended": 0.087
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 2,
+      "min": 0.087,
+      "median": 0.102,
+      "trimmedMedian": 0.102,
+      "providers": [
+        {
+          "provider": "CoreWeave",
+          "tag": "coreweave/bf16",
+          "key": "coreweave~bf16",
+          "blended": 0.087
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/bf16",
+          "key": "deepinfra~bf16",
+          "blended": 0.117
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.087,
+      "median": 0.087,
+      "trimmedMedian": 0.087,
+      "providers": [
+        {
+          "provider": "ibm-granite",
+          "tag": null,
+          "key": "default",
+          "blended": 0.087
+        }
+      ]
+    }
+  ]
+}

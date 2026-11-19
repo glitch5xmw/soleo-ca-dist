@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "meta-llama/llama-4-scout",
+    "name": "Meta: Llama 4 Scout",
+    "contextLength": 1310720
+  },
+  "provider": {
+    "provider": "meta-llama",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.1,
+    "output": 0.3,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.16,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1310720,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/meta-llama/llama-4-scout/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.3,
+        "cacheRead": null
+      }
+    }
+  ]
+}

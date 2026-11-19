@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "moonshotai/kimi-k2.5",
+    "name": "MoonshotAI: Kimi K2.5",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "Amazon Bedrock",
+    "tag": "amazon-bedrock/us-east-2",
+    "key": "amazon-bedrock~us-east-2",
+    "name": "Amazon Bedrock | moonshotai/kimi-k2.5-0127",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 0.6,
+    "output": 3,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 1.32,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 262144,
+    "maxCompletionTokens": 131072,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/moonshotai/kimi-k2.5/providers/amazon-bedrock~us-east-2.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.6,
+        "output": 3,
+        "cacheRead": null
+      }
+    }
+  ]
+}

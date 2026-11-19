@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-5.2",
+    "name": "OpenAI: GPT-5.2",
+    "contextLength": 400000
+  },
+  "provider": {
+    "provider": "OpenAI",
+    "tag": "openai/flex",
+    "key": "openai~flex",
+    "name": "OpenAI | openai/gpt-5.2-20251211",
+    "quantization": "unknown",
+    "serviceTier": "flex",
+    "input": 0.875,
+    "output": 7,
+    "cacheRead": 0.0875,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 2.7125,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 400000,
+    "maxCompletionTokens": 128000,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/openai/gpt-5.2/providers/openai~flex.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.875,
+        "output": 7,
+        "cacheRead": 0.0875
+      }
+    }
+  ]
+}

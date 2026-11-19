@@ -1,0 +1,74 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "qwen/qwen3.5-397b-a17b",
+    "name": "Qwen: Qwen3.5 397B A17B"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 1.215,
+      "median": 1.215,
+      "trimmedMedian": 1.215,
+      "providers": [
+        {
+          "provider": "qwen",
+          "tag": null,
+          "key": "default",
+          "blended": 1.215
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 1.215,
+      "median": 1.215,
+      "trimmedMedian": 1.215,
+      "providers": [
+        {
+          "provider": "qwen",
+          "tag": null,
+          "key": "default",
+          "blended": 1.215
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 1.215,
+      "median": 1.215,
+      "trimmedMedian": 1.215,
+      "providers": [
+        {
+          "provider": "qwen",
+          "tag": null,
+          "key": "default",
+          "blended": 1.215
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 1.215,
+      "median": 1.215,
+      "trimmedMedian": 1.215,
+      "providers": [
+        {
+          "provider": "qwen",
+          "tag": null,
+          "key": "default",
+          "blended": 1.215
+        }
+      ]
+    }
+  ]
+}

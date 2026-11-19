@@ -1,0 +1,44 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "SiliconFlow",
+    "tag": "siliconflow/fp8",
+    "key": "siliconflow~fp8",
+    "name": "SiliconFlow | z-ai/glm-5.2-20260616",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.651,
+    "output": 2.046,
+    "cacheRead": 0.13,
+    "cacheWrite": null,
+    "discount": 0.5,
+    "blended": 1.0695,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 1048576,
+    "maxCompletionTokens": 262144,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/z-ai/glm-5.2/providers/siliconflow~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.651,
+        "output": 2.046,
+        "cacheRead": 0.13
+      },
+      "discount": 0.5
+    }
+  ]
+}

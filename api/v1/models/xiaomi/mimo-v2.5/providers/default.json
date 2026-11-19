@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "xiaomi/mimo-v2.5",
+    "name": "Xiaomi: MiMo-V2.5",
+    "contextLength": 1000000
+  },
+  "provider": {
+    "provider": "xiaomi",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.4,
+    "output": 2,
+    "cacheRead": 0.08,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.88,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1000000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/xiaomi/mimo-v2.5/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.4,
+        "output": 2,
+        "cacheRead": 0.08
+      }
+    }
+  ]
+}

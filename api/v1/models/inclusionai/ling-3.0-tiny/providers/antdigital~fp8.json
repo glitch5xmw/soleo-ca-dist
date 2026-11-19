@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "inclusionai/ling-3.0-tiny",
+    "name": "inclusionAI: Ling 3.0 Tiny",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "Ant Digital",
+    "tag": "antdigital/fp8",
+    "key": "antdigital~fp8",
+    "name": "Ant Digital | inclusionai/ling-3.0-tiny-20260806",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.015,
+    "output": 0.045,
+    "cacheRead": 0.003,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.024,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 262144,
+    "maxCompletionTokens": 250000,
+    "supportsImplicitCaching": true,
+    "status": -2,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/inclusionai/ling-3.0-tiny/providers/antdigital~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.015,
+        "output": 0.045,
+        "cacheRead": 0.003
+      }
+    }
+  ]
+}

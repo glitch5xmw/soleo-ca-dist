@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "Ambient",
+    "tag": "ambient/fp4",
+    "key": "ambient~fp4",
+    "name": "Ambient | deepseek/deepseek-v4.1-flash-20261017",
+    "quantization": "fp4",
+    "serviceTier": null,
+    "input": 0.035,
+    "output": 0.15,
+    "cacheRead": 0.0015,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.0695,
+    "throughput": null,
+    "latency": null,
+    "uptime": 93.33333333333333,
+    "contextLength": 1048576,
+    "maxCompletionTokens": 943718,
+    "supportsImplicitCaching": true,
+    "status": -2,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/deepseek/deepseek-v4.1-flash-1017/providers/ambient~fp4.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.035,
+        "output": 0.15,
+        "cacheRead": 0.0015
+      }
+    }
+  ]
+}

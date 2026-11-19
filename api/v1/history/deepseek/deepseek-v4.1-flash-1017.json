@@ -1,0 +1,368 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 0.1752,
+      "median": 0.1752,
+      "trimmedMedian": 0.1752,
+      "providers": [
+        {
+          "provider": "deepseek",
+          "tag": null,
+          "key": "default",
+          "blended": 0.1752
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.1568,
+      "median": 0.1568,
+      "trimmedMedian": 0.1568,
+      "providers": [
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8",
+          "key": "deepinfra~fp8",
+          "blended": 0.1568
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 0.285,
+      "median": 0.285,
+      "trimmedMedian": 0.285,
+      "providers": [
+        {
+          "provider": "deepseek",
+          "tag": null,
+          "key": "default",
+          "blended": 0.285
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 50,
+      "min": 0.0695,
+      "median": 0.316,
+      "trimmedMedian": 0.24825,
+      "providers": [
+        {
+          "provider": "Particle AI",
+          "tag": "particle-ai/us/flex",
+          "key": "particle-ai~us~flex",
+          "blended": 0.096
+        },
+        {
+          "provider": "Ambient",
+          "tag": "ambient/fp4",
+          "key": "ambient~fp4",
+          "blended": 0.0695
+        },
+        {
+          "provider": "Wafer",
+          "tag": "wafer/us",
+          "key": "wafer~us",
+          "blended": 0.1752
+        },
+        {
+          "provider": "PrimeIntellect",
+          "tag": "primeintellect",
+          "key": "primeintellect",
+          "blended": 0.240576
+        },
+        {
+          "provider": "Pearl Research",
+          "tag": "pearl-research/fp8",
+          "key": "pearl-research~fp8",
+          "blended": 0.125
+        },
+        {
+          "provider": "Morph",
+          "tag": "morph/fp8",
+          "key": "morph~fp8",
+          "blended": 0.1973
+        },
+        {
+          "provider": "Particle AI",
+          "tag": "particle-ai/us",
+          "key": "particle-ai~us",
+          "blended": 0.192
+        },
+        {
+          "provider": "OpenInference",
+          "tag": "open-inference/fp4",
+          "key": "open-inference~fp4",
+          "blended": 0.312
+        },
+        {
+          "provider": "Wafer",
+          "tag": "wafer/mxfp4",
+          "key": "wafer~mxfp4",
+          "blended": 0.199
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8/flex",
+          "key": "deepinfra~fp8~flex",
+          "blended": 0.12544
+        },
+        {
+          "provider": "InferenceNet",
+          "tag": "inference-net/us",
+          "key": "inference-net~us",
+          "blended": 0.2465
+        },
+        {
+          "provider": "InferenceNet",
+          "tag": "inference-net/fp8",
+          "key": "inference-net~fp8",
+          "blended": 0.2465
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8",
+          "key": "deepinfra~fp8",
+          "blended": 0.1568
+        },
+        {
+          "provider": "DekaLLM",
+          "tag": "dekallm",
+          "key": "dekallm",
+          "blended": 0.25
+        },
+        {
+          "provider": "Cloudflare",
+          "tag": "cloudflare",
+          "key": "cloudflare",
+          "blended": 0.25
+        },
+        {
+          "provider": "StepFun",
+          "tag": "stepfun/fp8",
+          "key": "stepfun~fp8",
+          "blended": 0.1995
+        },
+        {
+          "provider": "StreamLake",
+          "tag": "streamlake/fp8",
+          "key": "streamlake~fp8",
+          "blended": 0.2109
+        },
+        {
+          "provider": "Ant Digital",
+          "tag": "antdigital/fp8",
+          "key": "antdigital~fp8",
+          "blended": 0.228
+        },
+        {
+          "provider": "River",
+          "tag": "river",
+          "key": "river",
+          "blended": 0.228
+        },
+        {
+          "provider": "Novita",
+          "tag": "novita/fp8",
+          "key": "novita~fp8",
+          "blended": 0.228
+        },
+        {
+          "provider": "Relace",
+          "tag": "relace/fp4",
+          "key": "relace~fp4",
+          "blended": 0.234
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8/priority",
+          "key": "deepinfra~fp8~priority",
+          "blended": 0.2352
+        },
+        {
+          "provider": "Cohere",
+          "tag": "cohere/fp8",
+          "key": "cohere~fp8",
+          "blended": 0.255
+        },
+        {
+          "provider": "SiliconFlow",
+          "tag": "siliconflow/fp8",
+          "key": "siliconflow~fp8",
+          "blended": 0.285
+        },
+        {
+          "provider": "DeepSeek",
+          "tag": "deepseek",
+          "key": "deepseek",
+          "blended": 0.285
+        },
+        {
+          "provider": "Makora",
+          "tag": "makora/fp8",
+          "key": "makora~fp8",
+          "blended": 0.345
+        },
+        {
+          "provider": "ModelRun",
+          "tag": "modelrun/fp4",
+          "key": "modelrun~fp4",
+          "blended": 0.32
+        },
+        {
+          "provider": "Nebius",
+          "tag": "nebius/fp4",
+          "key": "nebius~fp4",
+          "blended": 0.342
+        },
+        {
+          "provider": "DigitalOcean",
+          "tag": "digitalocean",
+          "key": "digitalocean",
+          "blended": 0.342
+        },
+        {
+          "provider": "GMICloud",
+          "tag": "gmicloud/fp8",
+          "key": "gmicloud~fp8",
+          "blended": 0.342
+        },
+        {
+          "provider": "Alibaba",
+          "tag": "alibaba",
+          "key": "alibaba",
+          "blended": 0.342
+        },
+        {
+          "provider": "Inceptron",
+          "tag": "inceptron/fp4",
+          "key": "inceptron~fp4",
+          "blended": 0.366
+        },
+        {
+          "provider": "AtlasCloud",
+          "tag": "atlas-cloud/fp8",
+          "key": "atlas-cloud~fp8",
+          "blended": 0.3705
+        },
+        {
+          "provider": "Ionstream",
+          "tag": "ionstream",
+          "key": "ionstream",
+          "blended": 0.333
+        },
+        {
+          "provider": "Fireworks",
+          "tag": "fireworks/spot",
+          "key": "fireworks~spot",
+          "blended": 0.399
+        },
+        {
+          "provider": "Mistral",
+          "tag": "mistral/fp8",
+          "key": "mistral~fp8",
+          "blended": 0.456
+        },
+        {
+          "provider": "PrimaLabs",
+          "tag": "primalabs",
+          "key": "primalabs",
+          "blended": 0.456
+        },
+        {
+          "provider": "Modal",
+          "tag": "modal",
+          "key": "modal",
+          "blended": 0.475
+        },
+        {
+          "provider": "Baidu",
+          "tag": "baidu/fp8",
+          "key": "baidu~fp8",
+          "blended": 0.535
+        },
+        {
+          "provider": "Crusoe",
+          "tag": "crusoe/fp8",
+          "key": "crusoe~fp8",
+          "blended": 0.563
+        },
+        {
+          "provider": "CoreWeave",
+          "tag": "coreweave/fp8",
+          "key": "coreweave~fp8",
+          "blended": 0.57
+        },
+        {
+          "provider": "Near AI",
+          "tag": "near-ai",
+          "key": "near-ai",
+          "blended": 0.57
+        },
+        {
+          "provider": "Venice",
+          "tag": "venice/fp8",
+          "key": "venice~fp8",
+          "blended": 0.57
+        },
+        {
+          "provider": "Together",
+          "tag": "together",
+          "key": "together",
+          "blended": 0.57
+        },
+        {
+          "provider": "Fireworks",
+          "tag": "fireworks",
+          "key": "fireworks",
+          "blended": 0.57
+        },
+        {
+          "provider": "BaseTen",
+          "tag": "baseten",
+          "key": "baseten",
+          "blended": 0.57
+        },
+        {
+          "provider": "Parasail",
+          "tag": "parasail/fp8",
+          "key": "parasail~fp8",
+          "blended": 0.57
+        },
+        {
+          "provider": "Fireworks",
+          "tag": "fireworks/us",
+          "key": "fireworks~us",
+          "blended": 0.855
+        },
+        {
+          "provider": "Morph",
+          "tag": "morph/fast",
+          "key": "morph~fast",
+          "blended": 1.14
+        },
+        {
+          "provider": "BaseTen",
+          "tag": "baseten/fast",
+          "key": "baseten~fast",
+          "blended": 1.14
+        }
+      ]
+    }
+  ]
+}

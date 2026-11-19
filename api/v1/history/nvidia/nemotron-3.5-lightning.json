@@ -1,0 +1,98 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "nvidia/nemotron-3.5-lightning",
+    "name": "NVIDIA: Nemotron 3.5 Lightning"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 0.109,
+      "median": 0.109,
+      "trimmedMedian": 0.109,
+      "providers": [
+        {
+          "provider": "nvidia",
+          "tag": null,
+          "key": "default",
+          "blended": 0.109
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.109,
+      "median": 0.109,
+      "trimmedMedian": 0.109,
+      "providers": [
+        {
+          "provider": "nvidia",
+          "tag": null,
+          "key": "default",
+          "blended": 0.109
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 5,
+      "min": 0.0535,
+      "median": 0.095,
+      "trimmedMedian": 0.0925,
+      "providers": [
+        {
+          "provider": "Darkbloom",
+          "tag": "darkbloom/int4",
+          "key": "darkbloom~int4",
+          "blended": 0.0535
+        },
+        {
+          "provider": "Fireworks",
+          "tag": "fireworks",
+          "key": "fireworks",
+          "blended": 0.095
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/bf16",
+          "key": "deepinfra~bf16",
+          "blended": 0.09
+        },
+        {
+          "provider": "ModelRun",
+          "tag": "modelrun/fp4",
+          "key": "modelrun~fp4",
+          "blended": 0.109
+        },
+        {
+          "provider": "CoreWeave",
+          "tag": "coreweave/bf16",
+          "key": "coreweave~bf16",
+          "blended": 0.109
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.109,
+      "median": 0.109,
+      "trimmedMedian": 0.109,
+      "providers": [
+        {
+          "provider": "nvidia",
+          "tag": null,
+          "key": "default",
+          "blended": 0.109
+        }
+      ]
+    }
+  ]
+}

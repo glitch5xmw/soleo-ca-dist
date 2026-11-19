@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-audio-mini",
+    "name": "OpenAI: GPT Audio Mini",
+    "contextLength": 128000
+  },
+  "provider": {
+    "provider": "openai",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.6,
+    "output": 2.4,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 1.14,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 128000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/openai/gpt-audio-mini/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.6,
+        "output": 2.4,
+        "cacheRead": null
+      }
+    }
+  ]
+}

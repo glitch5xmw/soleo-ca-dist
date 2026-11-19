@@ -1,0 +1,51 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-6-luna:batch",
+    "name": "OpenAI: GPT-6 Luna (batch)",
+    "contextLength": 1050000
+  },
+  "provider": {
+    "provider": "openai",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.05,
+    "output": 0.25,
+    "cacheRead": 0.005,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.11,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1050000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 2,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/openai/gpt-6-luna~batch/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.05,
+        "output": 0.25,
+        "cacheRead": 0.005
+      }
+    },
+    {
+      "minContextTokens": 272000,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.375,
+        "cacheRead": 0.01
+      }
+    }
+  ]
+}

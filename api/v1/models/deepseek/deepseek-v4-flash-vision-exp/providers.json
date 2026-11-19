@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "deepseek/deepseek-v4-flash-vision-exp",
+    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+    "contextLength": 1048576
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "deepseek",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.44,
+      "output": 1.32,
+      "cacheRead": 0.014,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.704,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 1048576,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/deepseek/deepseek-v4-flash-vision-exp/providers/default.json"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "deepseek/deepseek-r1-0528",
+    "name": "DeepSeek: R1 0528",
+    "contextLength": 163840
+  },
+  "provider": {
+    "provider": "DeepInfra",
+    "tag": "deepinfra/fp4",
+    "key": "deepinfra~fp4",
+    "name": "DeepInfra | deepseek/deepseek-r1-0528",
+    "quantization": "fp4",
+    "serviceTier": null,
+    "input": 0.5,
+    "output": 2.15,
+    "cacheRead": 0.35,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.995,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 163840,
+    "maxCompletionTokens": 32768,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/deepseek/deepseek-r1-0528/providers/deepinfra~fp4.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.5,
+        "output": 2.15,
+        "cacheRead": 0.35
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "qwen/qwen3-30b-a3b-instruct-2507",
+    "name": "Qwen: Qwen3 30B A3B Instruct 2507"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 0.16,
+      "median": 0.16,
+      "trimmedMedian": 0.16,
+      "providers": [
+        {
+          "provider": "qwen",
+          "tag": null,
+          "key": "default",
+          "blended": 0.16
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.16,
+      "median": 0.16,
+      "trimmedMedian": 0.16,
+      "providers": [
+        {
+          "provider": "qwen",
+          "tag": null,
+          "key": "default",
+          "blended": 0.16
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 3,
+      "min": 0.153,
+      "median": 0.153,
+      "trimmedMedian": 0.153,
+      "providers": [
+        {
+          "provider": "DekaLLM",
+          "tag": "dekallm",
+          "key": "dekallm",
+          "blended": 0.153
+        },
+        {
+          "provider": "SiliconFlow",
+          "tag": "siliconflow/fp8",
+          "key": "siliconflow~fp8",
+          "blended": 0.153
+        },
+        {
+          "provider": "Nebius",
+          "tag": "nebius/fp8",
+          "key": "nebius~fp8",
+          "blended": 0.16
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.16,
+      "median": 0.16,
+      "trimmedMedian": 0.16,
+      "providers": [
+        {
+          "provider": "qwen",
+          "tag": null,
+          "key": "default",
+          "blended": 0.16
+        }
+      ]
+    }
+  ]
+}

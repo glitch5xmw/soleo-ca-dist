@@ -1,0 +1,92 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "x-ai/grok-4.20",
+    "name": "SpaceXAI: Grok 4.20"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 1.625,
+      "median": 1.625,
+      "trimmedMedian": 1.625,
+      "providers": [
+        {
+          "provider": "x-ai",
+          "tag": null,
+          "key": "default",
+          "blended": 1.625
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 1.625,
+      "median": 1.625,
+      "trimmedMedian": 1.625,
+      "providers": [
+        {
+          "provider": "x-ai",
+          "tag": null,
+          "key": "default",
+          "blended": 1.625
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 4,
+      "min": 1.625,
+      "median": 2.4375,
+      "trimmedMedian": 1.625,
+      "providers": [
+        {
+          "provider": "xAI",
+          "tag": "xai/zdr",
+          "key": "xai~zdr",
+          "blended": 1.625
+        },
+        {
+          "provider": "xAI",
+          "tag": "xai",
+          "key": "xai",
+          "blended": 1.625
+        },
+        {
+          "provider": "xAI",
+          "tag": "xai/zdr/priority",
+          "key": "xai~zdr~priority",
+          "blended": 3.25
+        },
+        {
+          "provider": "xAI",
+          "tag": "xai/priority",
+          "key": "xai~priority",
+          "blended": 3.25
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 1.625,
+      "median": 1.625,
+      "trimmedMedian": 1.625,
+      "providers": [
+        {
+          "provider": "x-ai",
+          "tag": null,
+          "key": "default",
+          "blended": 1.625
+        }
+      ]
+    }
+  ]
+}

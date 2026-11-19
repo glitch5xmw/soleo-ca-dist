@@ -1,0 +1,44 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "Ant Digital",
+    "tag": "antdigital/fp8",
+    "key": "antdigital~fp8",
+    "name": "Ant Digital | deepseek/deepseek-v4.1-flash-20261017",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.12,
+    "output": 0.48,
+    "cacheRead": 0.0024,
+    "cacheWrite": null,
+    "discount": 0.6,
+    "blended": 0.228,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 1048576,
+    "maxCompletionTokens": 393216,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/deepseek/deepseek-v4.1-flash-1017/providers/antdigital~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.12,
+        "output": 0.48,
+        "cacheRead": 0.0024
+      },
+      "discount": 0.6
+    }
+  ]
+}

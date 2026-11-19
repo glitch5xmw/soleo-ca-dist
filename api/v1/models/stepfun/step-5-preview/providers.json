@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "stepfun/step-5-preview",
+    "name": "StepFun: Step 5 Preview",
+    "contextLength": 1000000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "stepfun",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 1,
+      "output": 2.7,
+      "cacheRead": 0.1,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 1.51,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 1000000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/stepfun/step-5-preview/providers/default.json"
+    }
+  ]
+}

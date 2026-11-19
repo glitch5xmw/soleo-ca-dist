@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "nvidia/nemotron-3.5-lightning",
+    "name": "NVIDIA: Nemotron 3.5 Lightning",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "CoreWeave",
+    "tag": "coreweave/bf16",
+    "key": "coreweave~bf16",
+    "name": "CoreWeave | nvidia/nemotron-3.5-lightning-20260807",
+    "quantization": "bf16",
+    "serviceTier": null,
+    "input": 0.07,
+    "output": 0.2,
+    "cacheRead": 0.04,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.109,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 262144,
+    "maxCompletionTokens": 235929,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/nvidia/nemotron-3.5-lightning/providers/coreweave~bf16.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.07,
+        "output": 0.2,
+        "cacheRead": 0.04
+      }
+    }
+  ]
+}

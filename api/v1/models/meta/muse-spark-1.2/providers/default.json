@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "meta/muse-spark-1.2",
+    "name": "Meta: Muse Spark 1.2",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "meta",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 1.25,
+    "output": 4.25,
+    "cacheRead": 0.15,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 2.15,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1048576,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/meta/muse-spark-1.2/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 1.25,
+        "output": 4.25,
+        "cacheRead": 0.15
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "~unbiased/pareto-latest",
+    "name": "Pareto Latest",
+    "contextLength": 1048576
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "unbiased",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.8,
+      "output": 3.2,
+      "cacheRead": 0.03,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 1.52,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 1048576,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/unbiased/pareto-latest/providers/default.json"
+    }
+  ]
+}

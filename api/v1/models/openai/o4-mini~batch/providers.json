@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "openai/o4-mini:batch",
+    "name": "OpenAI: o4 Mini (batch)",
+    "contextLength": 200000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "openai",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.55,
+      "output": 2.2,
+      "cacheRead": 0.1375,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 1.045,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 200000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/openai/o4-mini~batch/providers/default.json"
+    }
+  ]
+}

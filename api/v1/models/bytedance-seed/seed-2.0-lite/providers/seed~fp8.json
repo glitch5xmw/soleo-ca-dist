@@ -1,0 +1,51 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "bytedance-seed/seed-2.0-lite",
+    "name": "ByteDance Seed: Seed-2.0-Lite",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "Seed",
+    "tag": "seed/fp8",
+    "key": "seed~fp8",
+    "name": "Seed | bytedance-seed/seed-2.0-lite-20260309",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.25,
+    "output": 2,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.775,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 262144,
+    "maxCompletionTokens": 131072,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 2,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/bytedance-seed/seed-2.0-lite/providers/seed~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.25,
+        "output": 2,
+        "cacheRead": null
+      }
+    },
+    {
+      "minContextTokens": 128000,
+      "pricing": {
+        "input": 0.5,
+        "output": 4,
+        "cacheRead": null
+      }
+    }
+  ]
+}

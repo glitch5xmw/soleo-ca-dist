@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "deepseek/deepseek-r1-0528",
+    "name": "DeepSeek: R1 0528",
+    "contextLength": 163840
+  },
+  "provider": {
+    "provider": "StreamLake",
+    "tag": "streamlake",
+    "key": "streamlake",
+    "name": "StreamLake | deepseek/deepseek-r1-0528",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 0.571,
+    "output": 2.286,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 1.0855,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 128000,
+    "maxCompletionTokens": 32000,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/deepseek/deepseek-r1-0528/providers/streamlake.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.571,
+        "output": 2.286,
+        "cacheRead": null
+      }
+    }
+  ]
+}

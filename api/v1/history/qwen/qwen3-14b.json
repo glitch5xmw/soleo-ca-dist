@@ -1,0 +1,92 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "qwen/qwen3-14b",
+    "name": "Qwen: Qwen3 14B"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 0.156,
+      "median": 0.156,
+      "trimmedMedian": 0.156,
+      "providers": [
+        {
+          "provider": "qwen",
+          "tag": null,
+          "key": "default",
+          "blended": 0.156
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.156,
+      "median": 0.156,
+      "trimmedMedian": 0.156,
+      "providers": [
+        {
+          "provider": "qwen",
+          "tag": null,
+          "key": "default",
+          "blended": 0.156
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 4,
+      "min": 0.1248,
+      "median": 0.146,
+      "trimmedMedian": 0.136,
+      "providers": [
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8/flex",
+          "key": "deepinfra~fp8~flex",
+          "blended": 0.1248
+        },
+        {
+          "provider": "NextBit",
+          "tag": "nextbit/int4",
+          "key": "nextbit~int4",
+          "blended": 0.136
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8",
+          "key": "deepinfra~fp8",
+          "blended": 0.156
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8/priority",
+          "key": "deepinfra~fp8~priority",
+          "blended": 0.234
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.156,
+      "median": 0.156,
+      "trimmedMedian": 0.156,
+      "providers": [
+        {
+          "provider": "qwen",
+          "tag": null,
+          "key": "default",
+          "blended": 0.156
+        }
+      ]
+    }
+  ]
+}

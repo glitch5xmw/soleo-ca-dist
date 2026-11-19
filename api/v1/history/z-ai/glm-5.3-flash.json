@@ -1,0 +1,332 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "z-ai/glm-5.3-flash",
+    "name": "Z.ai: GLM 5.3 Flash"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 44,
+      "min": 0.05145,
+      "median": 0.2305,
+      "trimmedMedian": 0.1974,
+      "providers": [
+        {
+          "provider": "Relace",
+          "tag": "relace/fp4",
+          "key": "relace~fp4",
+          "blended": 0.05145
+        },
+        {
+          "provider": "Wafer",
+          "tag": "wafer/us",
+          "key": "wafer~us",
+          "blended": 0.0846
+        },
+        {
+          "provider": "OpenInference",
+          "tag": "open-inference/fp4",
+          "key": "open-inference~fp4",
+          "blended": 0.192
+        },
+        {
+          "provider": "Darkbloom",
+          "tag": "darkbloom/fp4",
+          "key": "darkbloom~fp4",
+          "blended": 0.0995
+        },
+        {
+          "provider": "Wafer",
+          "tag": "wafer/nvfp4",
+          "key": "wafer~nvfp4",
+          "blended": 0.1175
+        },
+        {
+          "provider": "Particle AI",
+          "tag": "particle-ai/nvfp4/flex",
+          "key": "particle-ai~nvfp4~flex",
+          "blended": 0.1205
+        },
+        {
+          "provider": "Tenstorrent",
+          "tag": "tenstorrent/fp8",
+          "key": "tenstorrent~fp8",
+          "blended": 0.1275
+        },
+        {
+          "provider": "GMICloud",
+          "tag": "gmicloud/fp8",
+          "key": "gmicloud~fp8",
+          "blended": 0.1275
+        },
+        {
+          "provider": "Near AI",
+          "tag": "near-ai/fp8",
+          "key": "near-ai~fp8",
+          "blended": 0.206
+        },
+        {
+          "provider": "Novita",
+          "tag": "novita/fp8",
+          "key": "novita~fp8",
+          "blended": 0.1428
+        },
+        {
+          "provider": "StreamLake",
+          "tag": "streamlake/fp8",
+          "key": "streamlake~fp8",
+          "blended": 0.15045
+        },
+        {
+          "provider": "SiliconFlow",
+          "tag": "siliconflow/fp8",
+          "key": "siliconflow~fp8",
+          "blended": 0.19
+        },
+        {
+          "provider": "DekaLLM",
+          "tag": "dekallm",
+          "key": "dekallm",
+          "blended": 0.22
+        },
+        {
+          "provider": "InferenceNet",
+          "tag": "inference-net/us",
+          "key": "inference-net~us",
+          "blended": 0.1806
+        },
+        {
+          "provider": "InferenceNet",
+          "tag": "inference-net/fp4",
+          "key": "inference-net~fp4",
+          "blended": 0.1806
+        },
+        {
+          "provider": "DigitalOcean",
+          "tag": "digitalocean",
+          "key": "digitalocean",
+          "blended": 0.19125
+        },
+        {
+          "provider": "Reka",
+          "tag": "reka",
+          "key": "reka",
+          "blended": 0.174
+        },
+        {
+          "provider": "CoreWeave",
+          "tag": "coreweave/nvfp4",
+          "key": "coreweave~nvfp4",
+          "blended": 0.198
+        },
+        {
+          "provider": "River",
+          "tag": "river",
+          "key": "river",
+          "blended": 0.204
+        },
+        {
+          "provider": "NextBit",
+          "tag": "nextbit/fp4",
+          "key": "nextbit~fp4",
+          "blended": 0.219
+        },
+        {
+          "provider": "Morph",
+          "tag": "morph/fp8",
+          "key": "morph~fp8",
+          "blended": 0.1974
+        },
+        {
+          "provider": "Particle AI",
+          "tag": "particle-ai/nvfp4",
+          "key": "particle-ai~nvfp4",
+          "blended": 0.241
+        },
+        {
+          "provider": "Makora",
+          "tag": "makora/fp4",
+          "key": "makora~fp4",
+          "blended": 0.17
+        },
+        {
+          "provider": "Baidu",
+          "tag": "baidu/fp8",
+          "key": "baidu~fp8",
+          "blended": 0.255
+        },
+        {
+          "provider": "Mistral",
+          "tag": "mistral",
+          "key": "mistral",
+          "blended": 0.255
+        },
+        {
+          "provider": "KT",
+          "tag": "kt",
+          "key": "kt",
+          "blended": 0.255
+        },
+        {
+          "provider": "Cohere",
+          "tag": "cohere/nvfp4",
+          "key": "cohere~nvfp4",
+          "blended": 0.255
+        },
+        {
+          "provider": "Nebius",
+          "tag": "nebius/fp4",
+          "key": "nebius~fp4",
+          "blended": 0.255
+        },
+        {
+          "provider": "Modal",
+          "tag": "modal/fp4",
+          "key": "modal~fp4",
+          "blended": 0.255
+        },
+        {
+          "provider": "Crusoe",
+          "tag": "crusoe/fp4",
+          "key": "crusoe~fp4",
+          "blended": 0.255
+        },
+        {
+          "provider": "AtlasCloud",
+          "tag": "atlas-cloud/fp8",
+          "key": "atlas-cloud~fp8",
+          "blended": 0.255
+        },
+        {
+          "provider": "Fireworks",
+          "tag": "fireworks",
+          "key": "fireworks",
+          "blended": 0.255
+        },
+        {
+          "provider": "Friendli",
+          "tag": "friendli",
+          "key": "friendli",
+          "blended": 0.255
+        },
+        {
+          "provider": "Together",
+          "tag": "together",
+          "key": "together",
+          "blended": 0.255
+        },
+        {
+          "provider": "Parasail",
+          "tag": "parasail/fp4",
+          "key": "parasail~fp4",
+          "blended": 0.255
+        },
+        {
+          "provider": "BaseTen",
+          "tag": "baseten/fp8",
+          "key": "baseten~fp8",
+          "blended": 0.255
+        },
+        {
+          "provider": "Venice",
+          "tag": "venice",
+          "key": "venice",
+          "blended": 0.255
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp4",
+          "key": "deepinfra~fp4",
+          "blended": 0.255
+        },
+        {
+          "provider": "Z.AI",
+          "tag": "z-ai/fp8",
+          "key": "z-ai~fp8",
+          "blended": 0.255
+        },
+        {
+          "provider": "Inceptron",
+          "tag": "inceptron/fp8",
+          "key": "inceptron~fp8",
+          "blended": 0.2695
+        },
+        {
+          "provider": "Sail Research",
+          "tag": "sail-research/us",
+          "key": "sail-research~us",
+          "blended": 0.31
+        },
+        {
+          "provider": "Sail Research",
+          "tag": "sail-research/fp4",
+          "key": "sail-research~fp4",
+          "blended": 0.31
+        },
+        {
+          "provider": "Parasail",
+          "tag": "parasail/fast",
+          "key": "parasail~fast",
+          "blended": 0.31875
+        },
+        {
+          "provider": "Fireworks",
+          "tag": "fireworks/us",
+          "key": "fireworks~us",
+          "blended": 0.3825
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.05145,
+      "median": 0.05145,
+      "trimmedMedian": 0.05145,
+      "providers": [
+        {
+          "provider": "z-ai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.05145
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 0.255,
+      "median": 0.255,
+      "trimmedMedian": 0.255,
+      "providers": [
+        {
+          "provider": "z-ai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.255
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.255,
+      "median": 0.255,
+      "trimmedMedian": 0.255,
+      "providers": [
+        {
+          "provider": "z-ai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.255
+        }
+      ]
+    }
+  ]
+}

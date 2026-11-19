@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "inclusionai/ling-3.0-tiny",
+    "name": "inclusionAI: Ling 3.0 Tiny",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "inclusionai",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.015,
+    "output": 0.045,
+    "cacheRead": 0.003,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.024,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 262144,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/inclusionai/ling-3.0-tiny/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.015,
+        "output": 0.045,
+        "cacheRead": 0.003
+      }
+    }
+  ]
+}

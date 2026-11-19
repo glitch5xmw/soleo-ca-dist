@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "google/gemini-nano-banana-2.1",
+    "name": "Google: Nano Banana 2.1",
+    "contextLength": 65536
+  },
+  "provider": {
+    "provider": "Google",
+    "tag": "google-vertex/global",
+    "key": "google-vertex~global",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 1.5,
+    "output": 7.5,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 3.3,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/google/gemini-nano-banana-2.1/providers/google-vertex~global.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 1.5,
+        "output": 7.5,
+        "cacheRead": null
+      }
+    }
+  ]
+}

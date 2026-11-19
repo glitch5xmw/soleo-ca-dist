@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "google/gemini-3.5-flash:batch",
+    "name": "Google: Gemini 3.5 Flash (batch)",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "Google",
+    "tag": "google-vertex/global",
+    "key": "google-vertex~global",
+    "name": "Google | google/gemini-3.5-flash-20260519:batch",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 0.75,
+    "output": 4.5,
+    "cacheRead": 0.075,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 1.875,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1048576,
+    "maxCompletionTokens": 65536,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/google/gemini-3.5-flash~batch/providers/google-vertex~global.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.75,
+        "output": 4.5,
+        "cacheRead": 0.075
+      }
+    }
+  ]
+}

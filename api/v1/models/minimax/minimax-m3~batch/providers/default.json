@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "minimax/minimax-m3:batch",
+    "name": "MiniMax: MiniMax M3 (batch)",
+    "contextLength": 524288
+  },
+  "provider": {
+    "provider": "minimax",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.224,
+    "output": 0.88,
+    "cacheRead": 0.0448,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.4208,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 524288,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/minimax/minimax-m3~batch/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.224,
+        "output": 0.88,
+        "cacheRead": 0.0448
+      }
+    }
+  ]
+}

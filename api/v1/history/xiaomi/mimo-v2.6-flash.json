@@ -1,0 +1,110 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "xiaomi/mimo-v2.6-flash",
+    "name": "Xiaomi: MiMo-V2.6-Flash"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 7,
+      "min": 0.1456,
+      "median": 0.182,
+      "trimmedMedian": 0.182,
+      "providers": [
+        {
+          "provider": "Darkbloom",
+          "tag": "darkbloom/fp4",
+          "key": "darkbloom~fp4",
+          "blended": 0.154
+        },
+        {
+          "provider": "GMICloud",
+          "tag": "gmicloud/bf16",
+          "key": "gmicloud~bf16",
+          "blended": 0.1456
+        },
+        {
+          "provider": "Cohere",
+          "tag": "cohere/fp8",
+          "key": "cohere~fp8",
+          "blended": 0.182
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8",
+          "key": "deepinfra~fp8",
+          "blended": 0.182
+        },
+        {
+          "provider": "Xiaomi",
+          "tag": "xiaomi/fp8",
+          "key": "xiaomi~fp8",
+          "blended": 0.182
+        },
+        {
+          "provider": "Venice",
+          "tag": "venice/fp8",
+          "key": "venice~fp8",
+          "blended": 0.2275
+        },
+        {
+          "provider": "Makora",
+          "tag": "makora/fp8",
+          "key": "makora~fp8",
+          "blended": 0.245
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.182,
+      "median": 0.182,
+      "trimmedMedian": 0.182,
+      "providers": [
+        {
+          "provider": "xiaomi",
+          "tag": null,
+          "key": "default",
+          "blended": 0.182
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 0.182,
+      "median": 0.182,
+      "trimmedMedian": 0.182,
+      "providers": [
+        {
+          "provider": "xiaomi",
+          "tag": null,
+          "key": "default",
+          "blended": 0.182
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.182,
+      "median": 0.182,
+      "trimmedMedian": 0.182,
+      "providers": [
+        {
+          "provider": "xiaomi",
+          "tag": null,
+          "key": "default",
+          "blended": 0.182
+        }
+      ]
+    }
+  ]
+}

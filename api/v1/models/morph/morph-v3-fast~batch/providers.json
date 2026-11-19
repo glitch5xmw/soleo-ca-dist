@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "morph/morph-v3-fast:batch",
+    "name": "Morph: Morph V3 Fast (batch)",
+    "contextLength": 81920
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "morph",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.4,
+      "output": 0.6,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.46,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 81920,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/morph/morph-v3-fast~batch/providers/default.json"
+    }
+  ]
+}

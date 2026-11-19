@@ -1,0 +1,238 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Assume the agent gets compromised · soleo.ca</title><meta name="description" content="An autonomous agent with network access is a package-installation engine pointed at the internet. The way to contain it is to assume the machine will be breached, and design so it does not matter."><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/_astro/_slug_.CpNNX6Jx.css"></head> <body> <a class="skip" href="#main">Skip to content</a> <header class="site-header"> <div class="wrap"> <a class="brand" href="/">soleo<span>.ca</span></a> <nav class="site-nav"> <a href="/#services">Services</a> <a href="/#principles">Principles</a> <a href="/tools/token-calculator">Token calculator</a> <a href="/articles">Articles</a> <a href="/#contact">Contact</a> </nav> </div> </header> <main id="main">  <article> <header class="article-head"> <div class="wrap"> <p class="eyebrow">Article</p> <h1>Assume the agent gets compromised</h1> <p class="lede">An autonomous agent with network access is a package-installation engine pointed at the internet. The way to contain it is to assume the machine will be breached, and design so it does not matter.</p> <p class="article-meta"> <time datetime="2026-11-19">November 19, 2026</time>  </p> </div> </header> <div class="wrap prose">  <p>When an autonomous agent runs on a machine you own, the frightening question is
+whether the model will “go rogue”. It is the wrong thing to worry about. A model
+does not have to want anything in particular to do damage: it will install a
+dependency you would not have chosen, run a build step it cannot read, and paste
+a URL into a shell — all while doing exactly what it was asked.</p>
+<p>The likelier event is duller and better documented. Something you did not write
+ends up running with the agent’s privileges. An autonomous agent is, structurally,
+a <strong>package-installation engine with a network connection and a mandate to act</strong>,
+and whatever it installs inherits everything the agent holds.</p>
+<p>Picture where this usually happens: an ordinary home lab. A NAS that holds your
+files and runs a handful of services, a spare machine you have pointed an agent
+at, and a flat home network where every device can reach every other. That is the
+setup that made self-hosting worth doing in the first place — you own the
+hardware, the data and the software, and none of it is rented by the month. It is
+also the setup where an autonomous agent’s blast radius is largest, because the
+machine that installs things and the machine that keeps your data sit one flat
+network apart.</p>
+<h2 id="three-ordinary-paths-in">Three ordinary paths in</h2>
+<p>None of these needs a hostile model.</p>
+<p><strong>The dependency nobody chose.</strong> In 2024 a patient contributor spent roughly two
+years earning maintainer trust in the <code>xz-utils</code> project, then used it to slip a
+backdoor into <code>liblzma</code> aimed at SSH (CVE-2024-3094). It was caught by accident,
+when an engineer noticed that SSH logins had become about half a second slower.
+An autonomous agent would have installed it without noticing anything.</p>
+<p><strong>The package that exists only because a model imagined it.</strong> Code-generating
+models invent plausible package names. A study of 576,000 generated code samples
+found that nearly one in five referenced at least one package that does not
+exist — some 205,000 distinct fabricated names in total — and that the same
+invented names <em>recur</em> across runs. That recurrence is what makes them worth
+registering: an attacker publishes a malicious package under a name the models
+keep suggesting, and the model becomes the delivery mechanism. The model is not
+the adversary; it is the supply.</p>
+<p><strong>You asked it to read the web.</strong> An agent searching for the error message it
+just hit will read the top result. A README that says “to fix this, run …” is a
+working prompt injection, because the agent is the reader and the installer at
+the same time. No human is ever socially engineered.</p>
+<h2 id="change-the-question">Change the question</h2>
+<p>If the probable event is “the agent machine is running something hostile”, then
+“how do I prevent infection?” is the wrong plan — the honest answer is that you
+cannot audit a modern dependency graph. Nobody can read the transitive closure
+of a serious project, let alone keep up with it while the agent adds to it.</p>
+<p>The useful question is narrower: <strong>when it happens, what can the intruder reach,
+and what can it do?</strong> Design so the answer is “almost nothing”. Ranked by
+leverage:</p>
+<h3 id="1-egress-allowlisting--deny-the-payoff">1. Egress allowlisting — deny the payoff</h3>
+<p>After a compromise, malicious code wants two things: a channel out, to
+exfiltrate data or receive instructions, and a view of the network, to spread. A
+deny-by-default egress policy that admits only what the agent legitimately needs
+— its package mirrors, the code hosts, and the specific NAS ports — removes both.
+The code still runs; it simply has nowhere to send anything and nothing to scan.
+The denied-connection log becomes your detection for free.</p>
+<h3 id="2-credential-scoping--the-malware-inherits-what-the-agent-holds">2. Credential scoping — the malware inherits what the agent holds</h3>
+<p>Whatever credential the agent has, the backdoored library now has too. So the
+agent’s access to the NAS should be a deploy key pinned to named repositories,
+never an account that can browse shares, read snapshots, or reach the admin UI.
+Where you can, prefer a proxy that injects credentials into approved requests
+over putting secrets in an environment any process can read.</p>
+<h3 id="3-backups-the-agent-cannot-delete">3. Backups the agent cannot delete</h3>
+<p>If write access to the NAS is in scope, the only thing that saves the data is a
+copy the agent’s credentials physically cannot touch: scheduled snapshots with
+retention, plus at least one copy that is offline or pull-only — a backup host
+that <em>pulls</em> from the NAS rather than accepting pushes to it.</p>
+<h3 id="4-disposability--rotation-beats-inspection">4. Disposability — rotation beats inspection</h3>
+<p>If the agent’s workspace is a virtual machine you can rebuild on a schedule,
+“what did it install?” stops being a question you have to answer by auditing
+thousands of packages. You rebuild the environment and the infection ages out.
+You cannot audit the dependency graph, but you can always cycle it.</p>
+<h2 id="separate-what-the-agent-ships-from-what-runs">Separate what the agent ships from what runs</h2>
+<p>The single most useful move is to stop treating the agent as an operator and
+start treating it as a <strong>code producer</strong>. Split the NAS into two planes that the
+agent’s permissions keep apart:</p>
+<ul>
+<li>The <strong>infrastructure plane</strong> — the git server, the image registry, and the
+pipelines that build and deploy. This is the plane that holds the power to
+change what actually runs.</li>
+<li>The <strong>product and data plane</strong> — your files, and the services those pipelines
+deploy.</li>
+</ul>
+<p>The agent gets <strong>no permission on infrastructure</strong>. It has no shell on the NAS, no
+Docker socket, no admin UI, no deploy credentials. Its only write path is to
+<strong>push code and artifacts</strong>: commits to a repository, and — if you want to skip a
+rebuild — an image to the registry. Everything else is done <em>by the
+infrastructure</em>, not by the agent: a pipeline pulls the code, builds the image,
+runs the tests, and only then deploys. That pipeline is the one thing holding
+deploy privileges, and it lives in the trusted plane where the agent cannot
+rewrite it.</p>
+<p>The effect is a clean division of labour. <strong>The agent proposes; infrastructure
+disposes.</strong> A compromised agent can, at worst, push a bad commit or a bad image —
+and the pipeline is the choke point where that gets caught: a signature check, a
+test suite, or a human pressing the button before anything changes what is
+running. It is the same separation good CI/CD has always made — build in one
+place, deploy from another — with the agent cast as an untrusted contributor
+rather than a trusted operator. That one decision removes the Docker-socket
+problem that otherwise turns every agent into root.</p>
+<h2 id="put-every-boundary-outside-the-thing-you-do-not-trust">Put every boundary outside the thing you do not trust</h2>
+<p>Those levers share a property worth naming: each of them is enforced somewhere
+<em>other</em> than the agent. That is not a coincidence; it is the whole design.</p>
+<p>If the agent can run commands on a host, it can, in principle, edit that host’s
+firewall, rewrite its own resolver, or disable the scanner you placed there to
+watch it. So enforcement has to live outside the box:</p>
+<ul>
+<li><strong>The coarse boundary is the network.</strong> Put the machine on its own segment —
+a VLAN, or a small VLAN-capable router in front of a mesh system that lacks
+one — and let the firewall admit only the traffic you intend: the internet,
+plus a pinhole to the NAS. This stops lateral movement to the rest of your
+network. It is worth doing, and on its own it is coarse: from the machine’s
+point of view, either the whole internet is reachable or none of it is.</li>
+<li><strong>The fine boundary is inside the machine but outside the agent.</strong> A virtual
+machine the agent cannot see out of, where the host — not the guest — owns the
+routing. Policy is set where the agent has no privileges.</li>
+</ul>
+<p>You want both, and they are not redundant: the network boundary limits where the
+<em>box</em> can go; the in-box boundary limits what the <em>agent</em> can do.</p>
+<h2 id="a-sandbox-runtime-a-vm-or-a-microvm">A sandbox runtime, a VM, or a microVM?</h2>
+<p>This is really one question: where do you draw the line, given that the agent
+must stay free to install tools, run builds, pull and push code, and open a
+browser?</p>
+<p>Start with what each option gives you.</p>
+<ul>
+<li><strong>A container</strong> shares the host kernel. Cheap, and the smallest step if the
+agent is already container-shaped — but a kernel escape is a host escape.</li>
+<li><strong>A microVM</strong> (Firecracker, Cloud Hypervisor, and friends) gives the agent its
+own kernel and userland, with the host enforcing the network edge. Stronger
+isolation, still one image to rebuild.</li>
+<li><strong>A sandbox runtime such as NVIDIA’s OpenShell</strong> instruments the kernel to
+police every file access, system call and network connection, per process, as
+it happens.</li>
+</ul>
+<p>It is tempting to treat these as a choice between “isolated” and “finely
+controlled”. They are not, and the reason is specific to how OpenShell is built.</p>
+<p>OpenShell splits into a <strong>supervisor</strong> — trusted, holding the policy — and a
+<strong>sandbox</strong> — untrusted, sharing its boundary with the agent. The agent never
+makes a policy decision: it reports what it is trying to do and the supervisor
+decides. On Linux, the workload runs as a non-root identity with no capabilities,
+<a href="https://landlock.io/">Landlock</a> confines the filesystem, and seccomp user
+notification stages network operations so the supervisor can see the <em>calling
+program</em> — identified from trusted process data, not from a path the agent
+claims — before a connection goes anywhere. Credentials are placeholders: the
+agent never holds the real key, and the supervisor adds it only to requests bound
+for endpoints the policy allows.</p>
+<p>The part that settles the question is OpenShell’s <strong>VM runtime</strong>. In that mode
+the agent’s guest has <em>no network device at all</em>; the only path out is an
+authenticated channel to the supervisor running on the host. So “microVM or
+OpenShell” is a false choice — its VM driver <em>is</em> the microVM, with per-process
+policy and credential injection layered on top. You get the strong boundary and
+the fine-grained egress rules together.</p>
+<p>That fits the requirement well: freedom to install and build, without that
+freedom implying a foothold on your network. Two honest caveats.</p>
+<ol>
+<li><strong>It is young.</strong> Releases are <code>0.1.x</code>, and NVIDIA is moving the project into
+the CNCF. Treat the defaults as needing verification against your own
+workloads rather than trusting them, and pin versions.</li>
+<li><strong>You can get most of the way with less.</strong> A plain microVM plus host-level
+<code>nftables</code> rules — allow the package mirrors, the code hosts and the NAS
+ports; drop everything else, including the private LAN ranges — is more
+manual, has no magic, and is easy to audit. OpenShell’s value is <em>granularity</em>
+(per-binary rules, credential injection), not the mere existence of a
+boundary.</li>
+</ol>
+<p>Either way, the browser deserves a note. An agent that “opens pages to fetch
+information” is reading attacker-controlled text. Fetched content is untrusted
+input, and the safest posture keeps fetching and installing on opposite sides of
+a policy decision wherever you can.</p>
+<h2 id="on-the-probe">On the probe</h2>
+<p>The tempting addition is a scanner <em>inside</em> the agent’s world, watching for
+malicious code. Be careful with it.</p>
+<p>A probe running inside the sandbox shares a trust domain with the thing it is
+scanning. Malicious code that lands beside it can, in principle, tamper with the
+probe, lie to it, or simply hide. That does not make scanning worthless — it
+makes it <strong>monitoring, not a control</strong>. It can raise your confidence and catch a
+lazy intruder, but it cannot be the wall.</p>
+<p>If you want detection you can lean on, put the sensor outside the boundary:</p>
+<ul>
+<li><strong>The egress denials are the signal.</strong> A denied connection to an unexpected
+host is the most valuable event you will get, and it is produced by the
+supervisor, which the agent cannot reach.</li>
+<li><strong>Keep static scanning and provenance checks in CI</strong>, on the code you push,
+where a compromise cannot rewrite the checker that is judging it.</li>
+<li><strong>Treat rotation as the ultimate detection.</strong> Rebuild, and anything that did
+not survive was never yours to keep.</li>
+</ul>
+<p>The pattern generalises well past one tool: never let the component being watched
+own the watch. It is the same reason the firewall does not live on the agent’s
+host.</p>
+<h2 id="a-home-lab-that-assumes-compromise">A home lab that assumes compromise</h2>
+<p>Pull the pieces together and a good home lab looks like this.</p>
+<figure class="figure">
+  <img src="/diagrams/home-lab-design.png" alt="A home lab split into three zones. A router with a firewall sits between the internet and the lab. The agent lives on its own VLAN, inside a microVM with no network device, with the host mediating all egress. The NAS is split into an infrastructure plane — git repository, image registry, and a CI pipeline that deploys images — and a separate data plane holding your files. The agent may reach the internet through an egress allowlist, and may push code and artifacts to the infrastructure plane, but is denied lateral access to the home LAN and denied access to the data plane. A pull-only, offline backup pulls from the data plane." width="2053" height="1653" loading="lazy">
+  <figcaption>
+    One design: the agent on its own VLAN and inside a microVM; the NAS split into
+    an infrastructure plane the agent can only push to and a data plane it cannot
+    reach; and a backup that pulls.
+  </figcaption>
+</figure>
+<p>Read it as three permissions, deliberately narrow:</p>
+<ul>
+<li><strong>Out</strong> — the agent reaches the internet, but only through an egress allowlist,
+so a payload has nowhere to call home and nothing else to scan.</li>
+<li><strong>In</strong> — the agent may push code and artifacts to infrastructure; it holds no
+deploy rights, and the pipeline that does hold them is not its to touch.</li>
+<li><strong>Denied</strong> — no lateral access to the home LAN, and no access at all to the
+data plane. The one thing that can read your files is the backup, and it only
+pulls.</li>
+</ul>
+<p>Underneath it all sits the microVM: the agent’s guest has no network device, so
+even the paths you <em>allow</em> are decisions made on the host, outside the box the
+agent can reach.</p>
+<p>The design is two ideas and a handful of habits.</p>
+<ol>
+<li><strong>Assume compromise.</strong> Design for the breach, not for its prevention.</li>
+<li><strong>Put every boundary outside the thing you do not trust.</strong> The network
+segment, the hypervisor, the supervisor, the backup that only pulls.</li>
+</ol>
+<p>Egress allowlisting, per-repository credentials, snapshots the agent cannot
+delete, and a workspace you can rebuild on a schedule are all just that posture,
+applied. Get the two ideas right and the residual risk lands where you want it:
+an annoyance you clean up, not an incident you have to survive.</p>
+<p>It is, in the end, the oldest idea in self-hosting, applied honestly: run what
+you own, and know exactly what it is allowed to touch.</p>
+<hr>
+<p><em>Have a system an autonomous agent is reaching into — or are you trying to?
+<a href="/">soleo.ca</a> does architecture review. <a href="mailto:hello@soleo.ca">hello@soleo.ca</a></em></p>
+<h2 id="notes-and-sources">Notes and sources</h2>
+<ul>
+<li>CVE-2024-3094, the <code>xz</code>/<code>liblzma</code> backdoor, was reported to the
+<code>oss-security</code> list on 29 March 2024:
+<a href="https://www.openwall.com/lists/oss-security/2024/03/29/4">openwall.com/lists/oss-security/2024/03/29/4</a>.</li>
+<li>Package hallucinations and their exploitation: Spracklen et al., <em>We Have a
+Package for You! A Comprehensive Analysis of Package Hallucinations by Code
+Generating LLMs</em>, USENIX Security 2025 —
+<a href="https://arxiv.org/abs/2406.10279">arXiv:2406.10279</a>.</li>
+<li>OpenShell’s architecture, isolation model and VM runtime:
+<a href="https://github.com/NVIDIA/OpenShell">github.com/NVIDIA/OpenShell</a> and
+<a href="https://docs.nvidia.com/openshell/latest/about/architecture">docs.nvidia.com/openshell</a>.</li>
+</ul>  </div> </article>  </main> <footer class="site-footer"> <div class="wrap"> <p>© 2026 soleo.ca — old school software you own.</p> <p style="margin-left:auto">
+Prices shown by the <a href="/tools/token-calculator">token calculator</a> are captured
+          from OpenRouter and baked in at build time.
+</p> </div> </footer> </body></html>

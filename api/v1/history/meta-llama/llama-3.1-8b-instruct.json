@@ -1,0 +1,92 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "meta-llama/llama-3.1-8b-instruct",
+    "name": "Meta: Llama 3.1 8B Instruct"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 4,
+      "min": 0.026,
+      "median": 0.12575,
+      "trimmedMedian": 0.059,
+      "providers": [
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8",
+          "key": "deepinfra~fp8",
+          "blended": 0.026
+        },
+        {
+          "provider": "Groq",
+          "tag": "groq",
+          "key": "groq",
+          "blended": 0.059
+        },
+        {
+          "provider": "Cloudflare",
+          "tag": "cloudflare/fp8",
+          "key": "cloudflare~fp8",
+          "blended": 0.1925
+        },
+        {
+          "provider": "CoreWeave",
+          "tag": "coreweave/bf16",
+          "key": "coreweave~bf16",
+          "blended": 0.22
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.026,
+      "median": 0.026,
+      "trimmedMedian": 0.026,
+      "providers": [
+        {
+          "provider": "meta-llama",
+          "tag": null,
+          "key": "default",
+          "blended": 0.026
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 0.026,
+      "median": 0.026,
+      "trimmedMedian": 0.026,
+      "providers": [
+        {
+          "provider": "meta-llama",
+          "tag": null,
+          "key": "default",
+          "blended": 0.026
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.026,
+      "median": 0.026,
+      "trimmedMedian": 0.026,
+      "providers": [
+        {
+          "provider": "meta-llama",
+          "tag": null,
+          "key": "default",
+          "blended": 0.026
+        }
+      ]
+    }
+  ]
+}

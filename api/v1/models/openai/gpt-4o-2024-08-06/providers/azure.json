@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-4o-2024-08-06",
+    "name": "OpenAI: GPT-4o (2024-08-06)",
+    "contextLength": 128000
+  },
+  "provider": {
+    "provider": "Azure",
+    "tag": "azure",
+    "key": "azure",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 2.5,
+    "output": 10,
+    "cacheRead": 1.25,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 4.75,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/openai/gpt-4o-2024-08-06/providers/azure.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 2.5,
+        "output": 10,
+        "cacheRead": 1.25
+      }
+    }
+  ]
+}

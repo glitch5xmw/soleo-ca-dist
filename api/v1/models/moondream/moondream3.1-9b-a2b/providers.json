@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "moondream/moondream3.1-9b-a2b",
+    "name": "Moondream: Moondream 3.1",
+    "contextLength": 32000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "moondream",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.3,
+      "output": 2.5,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.96,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 32000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/moondream/moondream3.1-9b-a2b/providers/default.json"
+    }
+  ]
+}

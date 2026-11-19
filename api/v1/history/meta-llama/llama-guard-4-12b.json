@@ -1,0 +1,86 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "meta-llama/llama-guard-4-12b",
+    "name": "Meta: Llama Guard 4 12B"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 0.18,
+      "median": 0.18,
+      "trimmedMedian": 0.18,
+      "providers": [
+        {
+          "provider": "meta-llama",
+          "tag": null,
+          "key": "default",
+          "blended": 0.18
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.18,
+      "median": 0.18,
+      "trimmedMedian": 0.18,
+      "providers": [
+        {
+          "provider": "meta-llama",
+          "tag": null,
+          "key": "default",
+          "blended": 0.18
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 3,
+      "min": 0.144,
+      "median": 0.18,
+      "trimmedMedian": 0.18,
+      "providers": [
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/bf16/flex",
+          "key": "deepinfra~bf16~flex",
+          "blended": 0.144
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/bf16",
+          "key": "deepinfra~bf16",
+          "blended": 0.18
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/bf16/priority",
+          "key": "deepinfra~bf16~priority",
+          "blended": 0.27
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.18,
+      "median": 0.18,
+      "trimmedMedian": 0.18,
+      "providers": [
+        {
+          "provider": "meta-llama",
+          "tag": null,
+          "key": "default",
+          "blended": 0.18
+        }
+      ]
+    }
+  ]
+}

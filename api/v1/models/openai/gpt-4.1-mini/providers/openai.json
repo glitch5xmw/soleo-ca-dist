@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-4.1-mini",
+    "name": "OpenAI: GPT-4.1 Mini",
+    "contextLength": 1047576
+  },
+  "provider": {
+    "provider": "OpenAI",
+    "tag": "openai",
+    "key": "openai",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.4,
+    "output": 1.6,
+    "cacheRead": 0.1,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.76,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/openai/gpt-4.1-mini/providers/openai.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.4,
+        "output": 1.6,
+        "cacheRead": 0.1
+      }
+    }
+  ]
+}

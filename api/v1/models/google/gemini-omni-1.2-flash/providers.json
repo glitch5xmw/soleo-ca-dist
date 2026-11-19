@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "google/gemini-omni-1.2-flash",
+    "name": "Google: Gemini Omni 1.2 Flash",
+    "contextLength": 131072
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "google",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 1.5,
+      "output": 9,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 3.75,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 131072,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/google/gemini-omni-1.2-flash/providers/default.json"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "google/gemini-3.1-flash-lite-preview",
+    "name": "Google: Gemini 3.1 Flash Lite Preview"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 0.625,
+      "median": 0.625,
+      "trimmedMedian": 0.625,
+      "providers": [
+        {
+          "provider": "google",
+          "tag": null,
+          "key": "default",
+          "blended": 0.625
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.625,
+      "median": 0.625,
+      "trimmedMedian": 0.625,
+      "providers": [
+        {
+          "provider": "google",
+          "tag": null,
+          "key": "default",
+          "blended": 0.625
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 0.625,
+      "median": 0.625,
+      "trimmedMedian": 0.625,
+      "providers": [
+        {
+          "provider": "google",
+          "tag": null,
+          "key": "default",
+          "blended": 0.625
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.625,
+      "median": 0.625,
+      "trimmedMedian": 0.625,
+      "providers": [
+        {
+          "provider": "google",
+          "tag": null,
+          "key": "default",
+          "blended": 0.625
+        }
+      ]
+    }
+  ]
+}

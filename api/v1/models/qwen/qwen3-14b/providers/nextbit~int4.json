@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "qwen/qwen3-14b",
+    "name": "Qwen: Qwen3 14B",
+    "contextLength": 40960
+  },
+  "provider": {
+    "provider": "NextBit",
+    "tag": "nextbit/int4",
+    "key": "nextbit~int4",
+    "name": "NextBit | qwen/qwen3-14b-04-28",
+    "quantization": "int4",
+    "serviceTier": null,
+    "input": 0.1,
+    "output": 0.22,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.136,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 40960,
+    "maxCompletionTokens": 36864,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/qwen/qwen3-14b/providers/nextbit~int4.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.22,
+        "cacheRead": null
+      }
+    }
+  ]
+}

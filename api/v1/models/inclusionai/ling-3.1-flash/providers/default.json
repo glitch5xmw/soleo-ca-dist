@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "inclusionai/ling-3.1-flash",
+    "name": "inclusionAI: Ling 3.1 Flash",
+    "contextLength": 1000000
+  },
+  "provider": {
+    "provider": "inclusionai",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.045,
+    "output": 0.135,
+    "cacheRead": 0.009,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.072,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1000000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/inclusionai/ling-3.1-flash/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.045,
+        "output": 0.135,
+        "cacheRead": 0.009
+      }
+    }
+  ]
+}

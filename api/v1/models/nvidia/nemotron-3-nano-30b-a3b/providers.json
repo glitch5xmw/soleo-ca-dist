@@ -1,0 +1,60 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "nvidia/nemotron-3-nano-30b-a3b",
+    "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+    "contextLength": 262144
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "nvidia",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.06,
+      "output": 0.24,
+      "cacheRead": 0.012,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.114,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 262144,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/nvidia/nemotron-3-nano-30b-a3b/providers/default.json"
+    },
+    {
+      "provider": "Nebius",
+      "tag": "nebius/fp8",
+      "key": "nebius~fp8",
+      "name": "Nebius | nvidia/nemotron-3-nano-30b-a3b",
+      "quantization": "fp8",
+      "serviceTier": null,
+      "input": 0.06,
+      "output": 0.24,
+      "cacheRead": 0.012,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.114,
+      "throughput": null,
+      "latency": null,
+      "uptime": 100,
+      "contextLength": 262144,
+      "maxCompletionTokens": 235929,
+      "supportsImplicitCaching": true,
+      "status": 0,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:01:45.728Z",
+      "detail": "models/nvidia/nemotron-3-nano-30b-a3b/providers/nebius~fp8.json"
+    }
+  ]
+}

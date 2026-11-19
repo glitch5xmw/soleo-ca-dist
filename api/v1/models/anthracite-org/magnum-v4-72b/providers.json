@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "anthracite-org/magnum-v4-72b",
+    "name": "Magnum v4 72B",
+    "contextLength": 32768
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "anthracite-org",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 2.5,
+      "output": 5,
+      "cacheRead": 2.5,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 3.25,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 32768,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/anthracite-org/magnum-v4-72b/providers/default.json"
+    }
+  ]
+}

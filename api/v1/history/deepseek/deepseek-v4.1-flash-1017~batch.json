@@ -1,0 +1,74 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "deepseek/deepseek-v4.1-flash-1017:batch",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 0.0702,
+      "median": 0.0702,
+      "trimmedMedian": 0.0702,
+      "providers": [
+        {
+          "provider": "deepseek",
+          "tag": null,
+          "key": "default",
+          "blended": 0.0702
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.0702,
+      "median": 0.0702,
+      "trimmedMedian": 0.0702,
+      "providers": [
+        {
+          "provider": "deepseek",
+          "tag": null,
+          "key": "default",
+          "blended": 0.0702
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 0.0702,
+      "median": 0.0702,
+      "trimmedMedian": 0.0702,
+      "providers": [
+        {
+          "provider": "deepseek",
+          "tag": null,
+          "key": "default",
+          "blended": 0.0702
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.0702,
+      "median": 0.0702,
+      "trimmedMedian": 0.0702,
+      "providers": [
+        {
+          "provider": "deepseek",
+          "tag": null,
+          "key": "default",
+          "blended": 0.0702
+        }
+      ]
+    }
+  ]
+}

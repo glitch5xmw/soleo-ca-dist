@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "anthropic/claude-opus-4.5",
+    "name": "Anthropic: Claude Opus 4.5",
+    "contextLength": 200000
+  },
+  "provider": {
+    "provider": "Azure",
+    "tag": "azure/global",
+    "key": "azure~global",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 5,
+    "output": 25,
+    "cacheRead": 0.5,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 11,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/anthropic/claude-opus-4.5/providers/azure~global.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 5,
+        "output": 25,
+        "cacheRead": 0.5
+      }
+    }
+  ]
+}

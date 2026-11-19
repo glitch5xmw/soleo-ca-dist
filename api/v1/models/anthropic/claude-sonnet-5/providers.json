@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "anthropic/claude-sonnet-5",
+    "name": "Anthropic: Claude Sonnet 5",
+    "contextLength": 1000000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "anthropic",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 2,
+      "output": 10,
+      "cacheRead": 0.2,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 4.4,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 1000000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/anthropic/claude-sonnet-5/providers/default.json"
+    }
+  ]
+}

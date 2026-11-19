@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "openai/o3:batch",
+    "name": "OpenAI: o3 (batch)",
+    "contextLength": 200000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "openai",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 1,
+      "output": 4,
+      "cacheRead": 0.25,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 1.9,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 200000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/openai/o3~batch/providers/default.json"
+    }
+  ]
+}

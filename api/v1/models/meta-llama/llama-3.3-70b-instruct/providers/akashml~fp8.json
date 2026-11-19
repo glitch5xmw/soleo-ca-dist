@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "contextLength": 131072
+  },
+  "provider": {
+    "provider": "AkashML",
+    "tag": "akashml/fp8",
+    "key": "akashml~fp8",
+    "name": "AkashML | meta-llama/llama-3.3-70b-instruct",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.2,
+    "output": 0.52,
+    "cacheRead": 0.1,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.296,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 131072,
+    "maxCompletionTokens": 128000,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/meta-llama/llama-3.3-70b-instruct/providers/akashml~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.2,
+        "output": 0.52,
+        "cacheRead": 0.1
+      }
+    }
+  ]
+}

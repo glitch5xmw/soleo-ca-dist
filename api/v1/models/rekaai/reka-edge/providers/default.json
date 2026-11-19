@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "rekaai/reka-edge",
+    "name": "Reka Edge",
+    "contextLength": 16384
+  },
+  "provider": {
+    "provider": "rekaai",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.1,
+    "output": 0.1,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.1,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 16384,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/rekaai/reka-edge/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.1,
+        "cacheRead": null
+      }
+    }
+  ]
+}

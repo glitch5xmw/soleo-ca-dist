@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "mistralai/mistral-large-2512",
+    "name": "Mistral: Mistral Large 3 2512",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "Mistral",
+    "tag": "mistral/zdr",
+    "key": "mistral~zdr",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.5,
+    "output": 1.5,
+    "cacheRead": 0.05,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.8,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/mistralai/mistral-large-2512/providers/mistral~zdr.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.5,
+        "output": 1.5,
+        "cacheRead": 0.05
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "google/gemma-4-26b-a4b-it:free",
+    "name": "Google: Gemma 4 26B A4B  (free)",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "Google AI Studio",
+    "tag": "google-ai-studio",
+    "key": "google-ai-studio",
+    "name": "Google AI Studio | google/gemma-4-26b-a4b-it-20260403:free",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 0,
+    "output": 0,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 262144,
+    "maxCompletionTokens": 32768,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/google/gemma-4-26b-a4b-it~free/providers/google-ai-studio.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0,
+        "output": 0,
+        "cacheRead": null
+      }
+    }
+  ]
+}

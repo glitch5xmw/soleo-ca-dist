@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "relace/relace-search",
+    "name": "Relace: Relace Search",
+    "contextLength": 256000
+  },
+  "provider": {
+    "provider": "relace",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 1,
+    "output": 3,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 1.6,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 256000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/relace/relace-search/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 1,
+        "output": 3,
+        "cacheRead": null
+      }
+    }
+  ]
+}

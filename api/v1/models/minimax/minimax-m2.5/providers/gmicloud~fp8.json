@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "minimax/minimax-m2.5",
+    "name": "MiniMax: MiniMax M2.5",
+    "contextLength": 198000
+  },
+  "provider": {
+    "provider": "GMICloud",
+    "tag": "gmicloud/fp8",
+    "key": "gmicloud~fp8",
+    "name": "GMICloud | minimax/minimax-m2.5-20260211",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.3,
+    "output": 1.2,
+    "cacheRead": 0.03,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.57,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 196608,
+    "maxCompletionTokens": 176947,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/minimax/minimax-m2.5/providers/gmicloud~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.3,
+        "output": 1.2,
+        "cacheRead": 0.03
+      }
+    }
+  ]
+}

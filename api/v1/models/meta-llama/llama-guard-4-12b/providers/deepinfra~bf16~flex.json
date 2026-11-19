@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "meta-llama/llama-guard-4-12b",
+    "name": "Meta: Llama Guard 4 12B",
+    "contextLength": 163840
+  },
+  "provider": {
+    "provider": "DeepInfra",
+    "tag": "deepinfra/bf16/flex",
+    "key": "deepinfra~bf16~flex",
+    "name": "DeepInfra | meta-llama/llama-guard-4-12b",
+    "quantization": "bf16",
+    "serviceTier": "flex",
+    "input": 0.144,
+    "output": 0.144,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.144,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 163840,
+    "maxCompletionTokens": 147456,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/meta-llama/llama-guard-4-12b/providers/deepinfra~bf16~flex.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.144,
+        "output": 0.144,
+        "cacheRead": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-chat-latest",
+    "name": "OpenAI: GPT Chat Latest",
+    "contextLength": 400000
+  },
+  "provider": {
+    "provider": "OpenAI",
+    "tag": "openai",
+    "key": "openai",
+    "name": "OpenAI | openai/gpt-chat-latest-20260505",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 5,
+    "output": 30,
+    "cacheRead": 0.5,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 12.5,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 400000,
+    "maxCompletionTokens": 128000,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/openai/gpt-chat-latest/providers/openai.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 5,
+        "output": 30,
+        "cacheRead": 0.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/o3-mini:batch",
+    "name": "OpenAI: o3 Mini (batch)",
+    "contextLength": 200000
+  },
+  "provider": {
+    "provider": "OpenAI",
+    "tag": "openai",
+    "key": "openai",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.55,
+    "output": 2.2,
+    "cacheRead": 0.275,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 1.045,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/openai/o3-mini~batch/providers/openai.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.55,
+        "output": 2.2,
+        "cacheRead": 0.275
+      }
+    }
+  ]
+}

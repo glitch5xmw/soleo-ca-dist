@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "google/gemini-4-neon",
+    "name": "Google: Gemini 4 Neon",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "Google",
+    "tag": "google-vertex/global/priority",
+    "key": "google-vertex~global~priority",
+    "name": "Google | google/gemini-4-neon-20261118",
+    "quantization": "unknown",
+    "serviceTier": "priority",
+    "input": 5.4,
+    "output": 27,
+    "cacheRead": 0.27,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 11.88,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1048576,
+    "maxCompletionTokens": 943718,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/google/gemini-4-neon/providers/google-vertex~global~priority.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 5.4,
+        "output": 27,
+        "cacheRead": 0.27
+      }
+    }
+  ]
+}

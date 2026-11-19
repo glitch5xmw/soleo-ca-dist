@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "name": "NVIDIA: Nemotron 3 Ultra (free)",
+    "contextLength": 1000000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "nvidia",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0,
+      "output": 0,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 1000000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/nvidia/nemotron-3-ultra-550b-a55b~free/providers/default.json"
+    }
+  ]
+}

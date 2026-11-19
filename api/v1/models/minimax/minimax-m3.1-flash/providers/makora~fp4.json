@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "minimax/minimax-m3.1-flash",
+    "name": "MiniMax: MiniMax M3.1 Flash",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "Makora",
+    "tag": "makora/fp4",
+    "key": "makora~fp4",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.15,
+    "output": 0.6,
+    "cacheRead": 0.015,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.285,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/minimax/minimax-m3.1-flash/providers/makora~fp4.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.15,
+        "output": 0.6,
+        "cacheRead": 0.015
+      }
+    }
+  ]
+}

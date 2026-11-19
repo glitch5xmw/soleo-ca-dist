@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "qwen/qwen3-235b-a22b-thinking-2507",
+    "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+    "contextLength": 128000
+  },
+  "provider": {
+    "provider": "qwen",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.45,
+    "output": 3.5,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 1.365,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 128000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/qwen/qwen3-235b-a22b-thinking-2507/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.45,
+        "output": 3.5,
+        "cacheRead": null
+      }
+    }
+  ]
+}

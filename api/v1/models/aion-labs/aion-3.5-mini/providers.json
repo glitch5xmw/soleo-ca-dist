@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "aion-labs/aion-3.5-mini",
+    "name": "AionLabs: Aion 3.5 Mini",
+    "contextLength": 262144
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "aion-labs",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.7,
+      "output": 1.4,
+      "cacheRead": 0.18,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.91,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 262144,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/aion-labs/aion-3.5-mini/providers/default.json"
+    }
+  ]
+}

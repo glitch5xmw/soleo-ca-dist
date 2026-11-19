@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "gryphe/mythomax-l2-13b",
+    "name": "MythoMax 13B",
+    "contextLength": 8192
+  },
+  "provider": {
+    "provider": "Parasail",
+    "tag": "parasail/fp16",
+    "key": "parasail~fp16",
+    "name": "Parasail | gryphe/mythomax-l2-13b",
+    "quantization": "fp16",
+    "serviceTier": null,
+    "input": 0.08,
+    "output": 0.11,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.089,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 4096,
+    "maxCompletionTokens": 3686,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/gryphe/mythomax-l2-13b/providers/parasail~fp16.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.08,
+        "output": 0.11,
+        "cacheRead": null
+      }
+    }
+  ]
+}

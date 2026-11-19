@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "z-ai/glm-5.3-flashx-legal",
+    "name": "Z.ai: GLM 5.3 FlashX Legal",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "z-ai",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.37,
+    "output": 1.25,
+    "cacheRead": 0.075,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.634,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1048576,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/z-ai/glm-5.3-flashx-legal/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.37,
+        "output": 1.25,
+        "cacheRead": 0.075
+      }
+    }
+  ]
+}

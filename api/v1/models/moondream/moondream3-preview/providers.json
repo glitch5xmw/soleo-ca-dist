@@ -1,0 +1,60 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "moondream/moondream3-preview",
+    "name": "Moondream: Moondream 3 Preview",
+    "contextLength": 32000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "moondream",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.3,
+      "output": 2.5,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.96,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 32000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/moondream/moondream3-preview/providers/default.json"
+    },
+    {
+      "provider": "PrimeIntellect",
+      "tag": "primeintellect/fp8",
+      "key": "primeintellect~fp8",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.3,
+      "output": 2.5,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.96,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": null,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-17T23:52:23.322Z",
+      "detail": "models/moondream/moondream3-preview/providers/primeintellect~fp8.json"
+    }
+  ]
+}

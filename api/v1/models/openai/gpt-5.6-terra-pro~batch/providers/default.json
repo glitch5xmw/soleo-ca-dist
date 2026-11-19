@@ -1,0 +1,51 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-5.6-terra-pro:batch",
+    "name": "OpenAI: GPT-5.6 Terra Pro (batch)",
+    "contextLength": 1050000
+  },
+  "provider": {
+    "provider": "openai",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 1,
+    "output": 6,
+    "cacheRead": 0.1,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 2.5,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1050000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 2,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/openai/gpt-5.6-terra-pro~batch/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 1,
+        "output": 6,
+        "cacheRead": 0.1
+      }
+    },
+    {
+      "minContextTokens": 272000,
+      "pricing": {
+        "input": 2,
+        "output": 9,
+        "cacheRead": 0.2
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-6-luna",
+    "name": "OpenAI: GPT-6 Luna",
+    "contextLength": 1050000
+  },
+  "provider": {
+    "provider": "OpenAI",
+    "tag": "openai/flex",
+    "key": "openai~flex",
+    "name": "OpenAI | openai/gpt-6-luna-20260922",
+    "quantization": "unknown",
+    "serviceTier": "flex",
+    "input": 0.05,
+    "output": 0.25,
+    "cacheRead": 0.005,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.11,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 1050000,
+    "maxCompletionTokens": 128000,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 2,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/openai/gpt-6-luna/providers/openai~flex.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.05,
+        "output": 0.25,
+        "cacheRead": 0.005
+      }
+    },
+    {
+      "minContextTokens": 272000,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.375,
+        "cacheRead": 0.01
+      }
+    }
+  ]
+}

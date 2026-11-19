@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "google/gemini-3.1-flash-lite-preview",
+    "name": "Google: Gemini 3.1 Flash Lite Preview",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "google",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.25,
+    "output": 1.5,
+    "cacheRead": 0.025,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.625,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1048576,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/google/gemini-3.1-flash-lite-preview/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.25,
+        "output": 1.5,
+        "cacheRead": 0.025
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "StreamLake",
+    "tag": "streamlake/fp8",
+    "key": "streamlake~fp8",
+    "name": "StreamLake | z-ai/glm-5.2-20260616",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.61306,
+    "output": 1.92676,
+    "cacheRead": 0.113854,
+    "cacheWrite": null,
+    "discount": 0.5621,
+    "blended": 1.00717,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 1024000,
+    "maxCompletionTokens": 128000,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/z-ai/glm-5.2/providers/streamlake~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.61306,
+        "output": 1.92676,
+        "cacheRead": 0.113854
+      },
+      "discount": 0.5621
+    }
+  ]
+}

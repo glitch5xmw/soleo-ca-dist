@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "moonshotai/kimi-k2-thinking",
+    "name": "MoonshotAI: Kimi K2 Thinking",
+    "contextLength": 262144
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "moonshotai",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.6,
+      "output": 2.5,
+      "cacheRead": 0.15,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 1.17,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 262144,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/moonshotai/kimi-k2-thinking/providers/default.json"
+    }
+  ]
+}

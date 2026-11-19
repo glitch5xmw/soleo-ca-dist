@@ -1,0 +1,92 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "minimax/minimax-m2.5",
+    "name": "MiniMax: MiniMax M2.5"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 0.5665,
+      "median": 0.5665,
+      "trimmedMedian": 0.5665,
+      "providers": [
+        {
+          "provider": "minimax",
+          "tag": null,
+          "key": "default",
+          "blended": 0.5665
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.5665,
+      "median": 0.5665,
+      "trimmedMedian": 0.5665,
+      "providers": [
+        {
+          "provider": "minimax",
+          "tag": null,
+          "key": "default",
+          "blended": 0.5665
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 4,
+      "min": 0.474,
+      "median": 0.56825,
+      "trimmedMedian": 0.5665,
+      "providers": [
+        {
+          "provider": "Venice",
+          "tag": "venice",
+          "key": "venice",
+          "blended": 0.474
+        },
+        {
+          "provider": "AtlasCloud",
+          "tag": "atlas-cloud/fp8",
+          "key": "atlas-cloud~fp8",
+          "blended": 0.5665
+        },
+        {
+          "provider": "GMICloud",
+          "tag": "gmicloud/fp8",
+          "key": "gmicloud~fp8",
+          "blended": 0.57
+        },
+        {
+          "provider": "DigitalOcean",
+          "tag": "digitalocean",
+          "key": "digitalocean",
+          "blended": 0.57
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.5665,
+      "median": 0.5665,
+      "trimmedMedian": 0.5665,
+      "providers": [
+        {
+          "provider": "minimax",
+          "tag": null,
+          "key": "default",
+          "blended": 0.5665
+        }
+      ]
+    }
+  ]
+}

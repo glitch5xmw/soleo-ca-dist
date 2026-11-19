@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "qwen/qwen-2.5-coder-32b-instruct",
+    "name": "Qwen2.5 Coder 32B Instruct",
+    "contextLength": 32768
+  },
+  "provider": {
+    "provider": "qwen",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.66,
+    "output": 1,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.762,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 32768,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/qwen/qwen-2.5-coder-32b-instruct/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.66,
+        "output": 1,
+        "cacheRead": null
+      }
+    }
+  ]
+}

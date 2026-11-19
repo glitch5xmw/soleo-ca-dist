@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "z-ai/glm-5v-turbo",
+    "name": "Z.ai: GLM 5V Turbo",
+    "contextLength": 202752
+  },
+  "provider": {
+    "provider": "z-ai",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 1.2,
+    "output": 4,
+    "cacheRead": 0.24,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 2.04,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 202752,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/z-ai/glm-5v-turbo/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 1.2,
+        "output": 4,
+        "cacheRead": 0.24
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "google/gemini-2.5-pro-preview",
+    "name": "Google: Gemini 2.5 Pro Preview 06-05",
+    "contextLength": 1048576
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "google",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 1.25,
+      "output": 10,
+      "cacheRead": 0.125,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 3.875,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 1048576,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 2,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/google/gemini-2.5-pro-preview/providers/default.json"
+    }
+  ]
+}

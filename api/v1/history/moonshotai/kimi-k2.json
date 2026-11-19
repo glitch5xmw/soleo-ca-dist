@@ -1,0 +1,74 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "moonshotai/kimi-k2",
+    "name": "MoonshotAI: Kimi K2 0711"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 1.089,
+      "median": 1.089,
+      "trimmedMedian": 1.089,
+      "providers": [
+        {
+          "provider": "Novita",
+          "tag": "novita/fp8",
+          "key": "novita~fp8",
+          "blended": 1.089
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 1.089,
+      "median": 1.089,
+      "trimmedMedian": 1.089,
+      "providers": [
+        {
+          "provider": "moonshotai",
+          "tag": null,
+          "key": "default",
+          "blended": 1.089
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 1.089,
+      "median": 1.089,
+      "trimmedMedian": 1.089,
+      "providers": [
+        {
+          "provider": "moonshotai",
+          "tag": null,
+          "key": "default",
+          "blended": 1.089
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 1.089,
+      "median": 1.089,
+      "trimmedMedian": 1.089,
+      "providers": [
+        {
+          "provider": "moonshotai",
+          "tag": null,
+          "key": "default",
+          "blended": 1.089
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "mistralai/mistral-medium-3-5:batch",
+    "name": "Mistral: Mistral Medium 3.5 (batch)",
+    "contextLength": 262144
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "mistralai",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.75,
+      "output": 3.75,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 1.65,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 262144,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/mistralai/mistral-medium-3-5~batch/providers/default.json"
+    }
+  ]
+}

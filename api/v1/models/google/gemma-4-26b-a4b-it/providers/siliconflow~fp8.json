@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "SiliconFlow",
+    "tag": "siliconflow/fp8",
+    "key": "siliconflow~fp8",
+    "name": "SiliconFlow | google/gemma-4-26b-a4b-it-20260403",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.14,
+    "output": 0.4,
+    "cacheRead": 0.05,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.218,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 262144,
+    "maxCompletionTokens": 235929,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/google/gemma-4-26b-a4b-it/providers/siliconflow~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.14,
+        "output": 0.4,
+        "cacheRead": 0.05
+      }
+    }
+  ]
+}

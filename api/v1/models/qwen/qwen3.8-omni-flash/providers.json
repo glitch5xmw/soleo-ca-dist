@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "qwen/qwen3.8-omni-flash",
+    "name": "Qwen: Qwen3.8 Omni Flash",
+    "contextLength": 1000000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "qwen",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.15,
+      "output": 0.47,
+      "cacheRead": 0.016,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.246,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 1000000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/qwen/qwen3.8-omni-flash/providers/default.json"
+    }
+  ]
+}

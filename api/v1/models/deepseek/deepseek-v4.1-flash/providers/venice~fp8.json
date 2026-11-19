@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "Venice",
+    "tag": "venice/fp8",
+    "key": "venice~fp8",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.3,
+    "output": 1.2,
+    "cacheRead": 0.0075,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.57,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/deepseek/deepseek-v4.1-flash/providers/venice~fp8.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.3,
+        "output": 1.2,
+        "cacheRead": 0.0075
+      }
+    }
+  ]
+}

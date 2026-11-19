@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "Ambient",
+    "tag": "ambient/fp8",
+    "key": "ambient~fp8",
+    "name": "Ambient | z-ai/glm-5.2-20260616",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.6,
+    "output": 2,
+    "cacheRead": 0.15,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 1.02,
+    "throughput": null,
+    "latency": null,
+    "uptime": 16.666666666666664,
+    "contextLength": 202752,
+    "maxCompletionTokens": 182476,
+    "supportsImplicitCaching": true,
+    "status": -5,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/z-ai/glm-5.2/providers/ambient~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.6,
+        "output": 2,
+        "cacheRead": 0.15
+      }
+    }
+  ]
+}

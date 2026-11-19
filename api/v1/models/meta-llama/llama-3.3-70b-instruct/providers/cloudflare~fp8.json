@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "contextLength": 131072
+  },
+  "provider": {
+    "provider": "Cloudflare",
+    "tag": "cloudflare/fp8",
+    "key": "cloudflare~fp8",
+    "name": "Cloudflare | meta-llama/llama-3.3-70b-instruct",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.293,
+    "output": 2.253,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.881,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 24000,
+    "maxCompletionTokens": 21600,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/meta-llama/llama-3.3-70b-instruct/providers/cloudflare~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.293,
+        "output": 2.253,
+        "cacheRead": null
+      }
+    }
+  ]
+}

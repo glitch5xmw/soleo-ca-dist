@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "Ionstream",
+    "tag": "ionstream",
+    "key": "ionstream",
+    "name": "Ionstream | deepseek/deepseek-v4.1-flash-20261017",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 0.21,
+    "output": 0.62,
+    "cacheRead": 0.0105,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.333,
+    "throughput": null,
+    "latency": null,
+    "uptime": 83.33333333333334,
+    "contextLength": 1048576,
+    "maxCompletionTokens": 943718,
+    "supportsImplicitCaching": true,
+    "status": -2,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/deepseek/deepseek-v4.1-flash-1017/providers/ionstream.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.21,
+        "output": 0.62,
+        "cacheRead": 0.0105
+      }
+    }
+  ]
+}

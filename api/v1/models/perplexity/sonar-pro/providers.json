@@ -1,0 +1,60 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "perplexity/sonar-pro",
+    "name": "Perplexity: Sonar Pro",
+    "contextLength": 200000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "perplexity",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 3,
+      "output": 15,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 6.6,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 200000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/perplexity/sonar-pro/providers/default.json"
+    },
+    {
+      "provider": "Perplexity",
+      "tag": "perplexity",
+      "key": "perplexity",
+      "name": "Perplexity | perplexity/sonar-pro",
+      "quantization": "unknown",
+      "serviceTier": null,
+      "input": 3,
+      "output": 15,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 6.6,
+      "throughput": null,
+      "latency": null,
+      "uptime": 100,
+      "contextLength": 200000,
+      "maxCompletionTokens": 8000,
+      "supportsImplicitCaching": false,
+      "status": 0,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:01:45.728Z",
+      "detail": "models/perplexity/sonar-pro/providers/perplexity.json"
+    }
+  ]
+}

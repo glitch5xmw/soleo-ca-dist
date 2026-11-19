@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "amazon/nova-pro-v1",
+    "name": "Amazon: Nova Pro 1.0",
+    "contextLength": 300000
+  },
+  "provider": {
+    "provider": "amazon",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.8,
+    "output": 3.2,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 1.52,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 300000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/amazon/nova-pro-v1/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.8,
+        "output": 3.2,
+        "cacheRead": null
+      }
+    }
+  ]
+}

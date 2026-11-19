@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "meta-llama/llama-guard-4-12b",
+    "name": "Meta: Llama Guard 4 12B",
+    "contextLength": 163840
+  },
+  "provider": {
+    "provider": "meta-llama",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.18,
+    "output": 0.18,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.18,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 163840,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/meta-llama/llama-guard-4-12b/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.18,
+        "output": 0.18,
+        "cacheRead": null
+      }
+    }
+  ]
+}

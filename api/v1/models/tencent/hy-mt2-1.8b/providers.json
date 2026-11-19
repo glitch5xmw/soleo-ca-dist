@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "tencent/hy-mt2-1.8b",
+    "name": "Tencent: Hy-MT2-1.8B",
+    "contextLength": 8192
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "tencent",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.044,
+      "output": 0.177,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.0839,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 8192,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/tencent/hy-mt2-1.8b/providers/default.json"
+    }
+  ]
+}

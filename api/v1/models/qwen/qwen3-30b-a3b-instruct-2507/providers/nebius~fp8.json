@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "qwen/qwen3-30b-a3b-instruct-2507",
+    "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "Nebius",
+    "tag": "nebius/fp8",
+    "key": "nebius~fp8",
+    "name": "Nebius | qwen/qwen3-30b-a3b-instruct-2507",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.1,
+    "output": 0.3,
+    "cacheRead": 0.1,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.16,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 262144,
+    "maxCompletionTokens": 235929,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/qwen/qwen3-30b-a3b-instruct-2507/providers/nebius~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.3,
+        "cacheRead": 0.1
+      }
+    }
+  ]
+}

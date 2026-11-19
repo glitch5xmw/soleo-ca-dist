@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "DeepInfra",
+    "tag": "deepinfra/fp8",
+    "key": "deepinfra~fp8",
+    "name": "DeepInfra | google/gemma-4-26b-a4b-it-20260403",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.07,
+    "output": 0.34,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.151,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 262144,
+    "maxCompletionTokens": 16384,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/google/gemma-4-26b-a4b-it/providers/deepinfra~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.07,
+        "output": 0.34,
+        "cacheRead": null
+      }
+    }
+  ]
+}

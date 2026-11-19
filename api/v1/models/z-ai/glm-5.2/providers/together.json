@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "Together",
+    "tag": "together",
+    "key": "together",
+    "name": "Together | z-ai/glm-5.2-20260616",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 1.4,
+    "output": 4.4,
+    "cacheRead": 0.26,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 2.3,
+    "throughput": null,
+    "latency": null,
+    "uptime": 93.33333333333333,
+    "contextLength": 1048575,
+    "maxCompletionTokens": 943717,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/z-ai/glm-5.2/providers/together.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 1.4,
+        "output": 4.4,
+        "cacheRead": 0.26
+      }
+    }
+  ]
+}

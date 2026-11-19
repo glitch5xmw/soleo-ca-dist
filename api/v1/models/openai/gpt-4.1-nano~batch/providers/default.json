@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-4.1-nano:batch",
+    "name": "OpenAI: GPT-4.1 Nano (batch)",
+    "contextLength": 1047576
+  },
+  "provider": {
+    "provider": "openai",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.05,
+    "output": 0.2,
+    "cacheRead": 0.0125,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.095,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1047576,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/openai/gpt-4.1-nano~batch/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.05,
+        "output": 0.2,
+        "cacheRead": 0.0125
+      }
+    }
+  ]
+}

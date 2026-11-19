@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-4o:batch",
+    "name": "OpenAI: GPT-4o (batch)",
+    "contextLength": 128000
+  },
+  "provider": {
+    "provider": "OpenAI",
+    "tag": "openai",
+    "key": "openai",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 1.25,
+    "output": 5,
+    "cacheRead": 0.625,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 2.375,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/openai/gpt-4o~batch/providers/openai.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 1.25,
+        "output": 5,
+        "cacheRead": 0.625
+      }
+    }
+  ]
+}

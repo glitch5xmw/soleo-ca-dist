@@ -1,0 +1,51 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "x-ai/grok-4.20",
+    "name": "SpaceXAI: Grok 4.20",
+    "contextLength": 2000000
+  },
+  "provider": {
+    "provider": "xAI",
+    "tag": "xai/zdr",
+    "key": "xai~zdr",
+    "name": "xAI | x-ai/grok-4.20-20260309",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 1.25,
+    "output": 2.5,
+    "cacheRead": 0.2,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 1.625,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 2000000,
+    "maxCompletionTokens": 1800000,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 2,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/x-ai/grok-4.20/providers/xai~zdr.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 1.25,
+        "output": 2.5,
+        "cacheRead": 0.2
+      }
+    },
+    {
+      "minContextTokens": 200000,
+      "pricing": {
+        "input": 2.5,
+        "output": 5,
+        "cacheRead": 0.4
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "openai/gpt-5.4-image-2",
+    "name": "OpenAI: GPT-5.4 Image 2",
+    "contextLength": 272000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "openai",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 8,
+      "output": 15,
+      "cacheRead": 2,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 10.1,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 272000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/openai/gpt-5.4-image-2/providers/default.json"
+    }
+  ]
+}

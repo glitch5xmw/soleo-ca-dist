@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+    "name": "Venice: Uncensored",
+    "contextLength": 128000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "cognitivecomputations",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.2,
+      "output": 0.9,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.41,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 128000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/cognitivecomputations/dolphin-mistral-24b-venice-edition/providers/default.json"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "openai/gpt-4.1-nano",
+    "name": "OpenAI: GPT-4.1 Nano",
+    "contextLength": 1047576
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "openai",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.1,
+      "output": 0.4,
+      "cacheRead": 0.03,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.19,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 1047576,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/openai/gpt-4.1-nano/providers/default.json"
+    }
+  ]
+}

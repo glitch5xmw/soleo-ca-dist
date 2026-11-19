@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "aion-labs/aion-3.5",
+    "name": "AionLabs: Aion 3.5",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "AionLabs",
+    "tag": "aion-labs",
+    "key": "aion-labs",
+    "name": "AionLabs | aion-labs/aion-3.5-20260923",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 3,
+    "output": 6,
+    "cacheRead": 0.75,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 3.9,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 262144,
+    "maxCompletionTokens": 32768,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/aion-labs/aion-3.5/providers/aion-labs.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 3,
+        "output": 6,
+        "cacheRead": 0.75
+      }
+    }
+  ]
+}

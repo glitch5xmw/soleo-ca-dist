@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "stepfun/step-3.7-flash",
+    "name": "StepFun: Step 3.7 Flash",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "stepfun",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.2,
+    "output": 1.15,
+    "cacheRead": 0.04,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.485,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 262144,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/stepfun/step-3.7-flash/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.2,
+        "output": 1.15,
+        "cacheRead": 0.04
+      }
+    }
+  ]
+}

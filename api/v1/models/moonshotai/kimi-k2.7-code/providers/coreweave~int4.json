@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "moonshotai/kimi-k2.7-code",
+    "name": "MoonshotAI: Kimi K2.7 Code",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "CoreWeave",
+    "tag": "coreweave/int4",
+    "key": "coreweave~int4",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.6,
+    "output": 3,
+    "cacheRead": 0.12,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 1.32,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/moonshotai/kimi-k2.7-code/providers/coreweave~int4.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.6,
+        "output": 3,
+        "cacheRead": 0.12
+      }
+    }
+  ]
+}

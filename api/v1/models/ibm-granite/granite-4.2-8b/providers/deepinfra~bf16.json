@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "ibm-granite/granite-4.2-8b",
+    "name": "IBM: Granite 4.2 8B",
+    "contextLength": 131072
+  },
+  "provider": {
+    "provider": "DeepInfra",
+    "tag": "deepinfra/bf16",
+    "key": "deepinfra~bf16",
+    "name": "DeepInfra | ibm-granite/granite-4.2-8b-20260831",
+    "quantization": "bf16",
+    "serviceTier": null,
+    "input": 0.06,
+    "output": 0.25,
+    "cacheRead": 0.015,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.117,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 131072,
+    "maxCompletionTokens": 117964,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/ibm-granite/granite-4.2-8b/providers/deepinfra~bf16.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.06,
+        "output": 0.25,
+        "cacheRead": 0.015
+      }
+    }
+  ]
+}

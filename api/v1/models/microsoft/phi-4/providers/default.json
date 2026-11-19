@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "microsoft/phi-4",
+    "name": "Microsoft: Phi 4",
+    "contextLength": 16384
+  },
+  "provider": {
+    "provider": "microsoft",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.07,
+    "output": 0.14,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.091,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 16384,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/microsoft/phi-4/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.07,
+        "output": 0.14,
+        "cacheRead": null
+      }
+    }
+  ]
+}

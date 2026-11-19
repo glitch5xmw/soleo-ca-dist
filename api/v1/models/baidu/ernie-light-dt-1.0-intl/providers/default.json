@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "baidu/ernie-light-dt-1.0-intl",
+    "name": "Baidu: ERNIE-Light-DT-1.0",
+    "contextLength": 1024000
+  },
+  "provider": {
+    "provider": "baidu",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 1.13,
+    "output": 3.94,
+    "cacheRead": 0.113,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 1.973,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1024000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/baidu/ernie-light-dt-1.0-intl/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 1.13,
+        "output": 3.94,
+        "cacheRead": 0.113
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "Alibaba",
+    "tag": "alibaba/fp8/us-east-1",
+    "key": "alibaba~fp8~us-east-1",
+    "name": "Alibaba | z-ai/glm-5.2-20260616",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 1.12,
+    "output": 3.52,
+    "cacheRead": 0.224,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 1.84,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 1000000,
+    "maxCompletionTokens": 131072,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/z-ai/glm-5.2/providers/alibaba~fp8~us-east-1.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 1.12,
+        "output": 3.52,
+        "cacheRead": 0.224
+      }
+    }
+  ]
+}

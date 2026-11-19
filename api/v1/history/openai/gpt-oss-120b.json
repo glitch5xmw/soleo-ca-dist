@@ -1,0 +1,212 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "openai/gpt-oss-120b",
+    "name": "OpenAI: gpt-oss-120b"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 24,
+      "min": 0.066,
+      "median": 0.1955,
+      "trimmedMedian": 0.165,
+      "providers": [
+        {
+          "provider": "Near AI",
+          "tag": "near-ai/fp4",
+          "key": "near-ai~fp4",
+          "blended": 0.066
+        },
+        {
+          "provider": "Venice",
+          "tag": "venice/int4",
+          "key": "venice~int4",
+          "blended": 0.066
+        },
+        {
+          "provider": "CoreWeave",
+          "tag": "coreweave/fp4",
+          "key": "coreweave~fp4",
+          "blended": 0.072
+        },
+        {
+          "provider": "DekaLLM",
+          "tag": "dekallm/bf16",
+          "key": "dekallm~bf16",
+          "blended": 0.075
+        },
+        {
+          "provider": "AkashML",
+          "tag": "akashml/fp4",
+          "key": "akashml~fp4",
+          "blended": 0.0771
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/bf16",
+          "key": "deepinfra~bf16",
+          "blended": 0.0769
+        },
+        {
+          "provider": "Crusoe",
+          "tag": "crusoe/bf16",
+          "key": "crusoe~bf16",
+          "blended": 0.11
+        },
+        {
+          "provider": "Sail Research",
+          "tag": "sail-research/fp4",
+          "key": "sail-research~fp4",
+          "blended": 0.162
+        },
+        {
+          "provider": "DigitalOcean",
+          "tag": "digitalocean",
+          "key": "digitalocean",
+          "blended": 0.168
+        },
+        {
+          "provider": "PrimeIntellect",
+          "tag": "primeintellect/fp4",
+          "key": "primeintellect~fp4",
+          "blended": 0.0979
+        },
+        {
+          "provider": "Mancer 2",
+          "tag": "mancer/fp8",
+          "key": "mancer~fp8",
+          "blended": 0.1685
+        },
+        {
+          "provider": "Google",
+          "tag": "google-vertex/global",
+          "key": "google-vertex~global",
+          "blended": 0.171
+        },
+        {
+          "provider": "BaseTen",
+          "tag": "baseten/fp4/us",
+          "key": "baseten~fp4~us",
+          "blended": 0.22
+        },
+        {
+          "provider": "BaseTen",
+          "tag": "baseten/fp4",
+          "key": "baseten~fp4",
+          "blended": 0.22
+        },
+        {
+          "provider": "Parasail",
+          "tag": "parasail/fp4",
+          "key": "parasail~fp4",
+          "blended": 0.295
+        },
+        {
+          "provider": "SambaNova",
+          "tag": "sambanova",
+          "key": "sambanova",
+          "blended": 0.383
+        },
+        {
+          "provider": "Amazon Bedrock",
+          "tag": "amazon-bedrock/eu-west-1",
+          "key": "amazon-bedrock~eu-west-1",
+          "blended": 0.285
+        },
+        {
+          "provider": "Nebius",
+          "tag": "nebius/fp4",
+          "key": "nebius~fp4",
+          "blended": 0.285
+        },
+        {
+          "provider": "Amazon Bedrock",
+          "tag": "amazon-bedrock",
+          "key": "amazon-bedrock",
+          "blended": 0.285
+        },
+        {
+          "provider": "SiliconFlow",
+          "tag": "siliconflow/fp8",
+          "key": "siliconflow~fp8",
+          "blended": 0.285
+        },
+        {
+          "provider": "Together",
+          "tag": "together",
+          "key": "together",
+          "blended": 0.285
+        },
+        {
+          "provider": "Groq",
+          "tag": "groq",
+          "key": "groq",
+          "blended": 0.285
+        },
+        {
+          "provider": "Parasail",
+          "tag": "parasail/fast",
+          "key": "parasail~fast",
+          "blended": 0.33
+        },
+        {
+          "provider": "Cerebras",
+          "tag": "cerebras/fp16",
+          "key": "cerebras~fp16",
+          "blended": 0.47
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.285,
+      "median": 0.285,
+      "trimmedMedian": 0.285,
+      "providers": [
+        {
+          "provider": "openai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.285
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 0.285,
+      "median": 0.285,
+      "trimmedMedian": 0.285,
+      "providers": [
+        {
+          "provider": "openai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.285
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.285,
+      "median": 0.285,
+      "trimmedMedian": 0.285,
+      "providers": [
+        {
+          "provider": "openai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.285
+        }
+      ]
+    }
+  ]
+}

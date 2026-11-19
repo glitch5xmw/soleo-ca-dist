@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "sao10k/l3.1-euryale-70b",
+    "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
+    "contextLength": 131072
+  },
+  "provider": {
+    "provider": "sao10k",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.85,
+    "output": 0.85,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.85,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 131072,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/sao10k/l3.1-euryale-70b/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.85,
+        "output": 0.85,
+        "cacheRead": null
+      }
+    }
+  ]
+}

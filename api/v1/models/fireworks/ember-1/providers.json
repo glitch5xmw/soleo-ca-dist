@@ -1,0 +1,60 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "fireworks/ember-1",
+    "name": "Fireworks: Ember-1",
+    "contextLength": 1048576
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "fireworks",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 3,
+      "output": 15,
+      "cacheRead": 0.3,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 6.6,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 1048576,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/fireworks/ember-1/providers/default.json"
+    },
+    {
+      "provider": "Fireworks",
+      "tag": "fireworks",
+      "key": "fireworks",
+      "name": "Fireworks | fireworks/ember-1-20260923",
+      "quantization": "unknown",
+      "serviceTier": null,
+      "input": 3,
+      "output": 15,
+      "cacheRead": 0.3,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 6.6,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 1048576,
+      "maxCompletionTokens": 943718,
+      "supportsImplicitCaching": true,
+      "status": 0,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:01:45.728Z",
+      "detail": "models/fireworks/ember-1/providers/fireworks.json"
+    }
+  ]
+}

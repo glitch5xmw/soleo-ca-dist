@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "qwen/qwen3.8-max-0902",
+    "name": "Qwen: Qwen3.8 Max (0902)",
+    "contextLength": 1000000
+  },
+  "provider": {
+    "provider": "qwen",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 2,
+    "output": 6,
+    "cacheRead": 0.25,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 3.2,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1000000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/qwen/qwen3.8-max-0902/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 2,
+        "output": 6,
+        "cacheRead": 0.25
+      }
+    }
+  ]
+}

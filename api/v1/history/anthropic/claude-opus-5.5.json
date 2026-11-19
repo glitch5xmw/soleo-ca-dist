@@ -1,0 +1,104 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "anthropic/claude-opus-5.5",
+    "name": "Anthropic: Claude Opus 5.5"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 8.8,
+      "median": 8.8,
+      "trimmedMedian": 8.8,
+      "providers": [
+        {
+          "provider": "anthropic",
+          "tag": null,
+          "key": "default",
+          "blended": 8.8
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 8.8,
+      "median": 8.8,
+      "trimmedMedian": 8.8,
+      "providers": [
+        {
+          "provider": "anthropic",
+          "tag": null,
+          "key": "default",
+          "blended": 8.8
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 6,
+      "min": 8.8,
+      "median": 8.8,
+      "trimmedMedian": 8.8,
+      "providers": [
+        {
+          "provider": "Amazon Bedrock",
+          "tag": "amazon-bedrock",
+          "key": "amazon-bedrock",
+          "blended": 8.8
+        },
+        {
+          "provider": "Azure",
+          "tag": "azure/global",
+          "key": "azure~global",
+          "blended": 8.8
+        },
+        {
+          "provider": "Google",
+          "tag": "google-vertex/global",
+          "key": "google-vertex~global",
+          "blended": 8.8
+        },
+        {
+          "provider": "Claude Platform on AWS",
+          "tag": "claude-on-aws",
+          "key": "claude-on-aws",
+          "blended": 8.8
+        },
+        {
+          "provider": "Anthropic",
+          "tag": "anthropic",
+          "key": "anthropic",
+          "blended": 8.8
+        },
+        {
+          "provider": "Anthropic",
+          "tag": "anthropic/fast",
+          "key": "anthropic~fast",
+          "blended": 17.6
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 8.8,
+      "median": 8.8,
+      "trimmedMedian": 8.8,
+      "providers": [
+        {
+          "provider": "anthropic",
+          "tag": null,
+          "key": "default",
+          "blended": 8.8
+        }
+      ]
+    }
+  ]
+}

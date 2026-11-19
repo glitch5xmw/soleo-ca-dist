@@ -1,0 +1,51 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-5.6-terra-pro",
+    "name": "OpenAI: GPT-5.6 Terra Pro",
+    "contextLength": 1050000
+  },
+  "provider": {
+    "provider": "Azure",
+    "tag": "azure",
+    "key": "azure",
+    "name": "Azure | openai/gpt-5.6-terra-pro-20260709",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 2,
+    "output": 12,
+    "cacheRead": 0.2,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 5,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1050000,
+    "maxCompletionTokens": 128000,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 2,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/openai/gpt-5.6-terra-pro/providers/azure.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 2,
+        "output": 12,
+        "cacheRead": 0.2
+      }
+    },
+    {
+      "minContextTokens": 272000,
+      "pricing": {
+        "input": 4,
+        "output": 18,
+        "cacheRead": 0.4
+      }
+    }
+  ]
+}

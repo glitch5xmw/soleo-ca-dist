@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "qwen/qwen-plus",
+    "name": "Qwen: Qwen-Plus",
+    "contextLength": 1000000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "qwen",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.26,
+      "output": 0.78,
+      "cacheRead": 0.052,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.416,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 1000000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 2,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/qwen/qwen-plus/providers/default.json"
+    }
+  ]
+}

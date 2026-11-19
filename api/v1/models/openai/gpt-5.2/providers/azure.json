@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-5.2",
+    "name": "OpenAI: GPT-5.2",
+    "contextLength": 400000
+  },
+  "provider": {
+    "provider": "Azure",
+    "tag": "azure",
+    "key": "azure",
+    "name": "Azure | openai/gpt-5.2-20251211",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 1.75,
+    "output": 14,
+    "cacheRead": 0.175,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 5.425,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 400000,
+    "maxCompletionTokens": 128000,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/openai/gpt-5.2/providers/azure.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 1.75,
+        "output": 14,
+        "cacheRead": 0.175
+      }
+    }
+  ]
+}

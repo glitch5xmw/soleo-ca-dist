@@ -1,0 +1,266 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 2.0449,
+      "median": 2.0449,
+      "trimmedMedian": 2.0449,
+      "providers": [
+        {
+          "provider": "z-ai",
+          "tag": null,
+          "key": "default",
+          "blended": 2.0449
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 2.0449,
+      "median": 2.0449,
+      "trimmedMedian": 2.0449,
+      "providers": [
+        {
+          "provider": "z-ai",
+          "tag": null,
+          "key": "default",
+          "blended": 2.0449
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 33,
+      "min": 0.747,
+      "median": 2.3,
+      "trimmedMedian": 1.587,
+      "providers": [
+        {
+          "provider": "Wafer",
+          "tag": "wafer/us",
+          "key": "wafer~us",
+          "blended": 2.0449
+        },
+        {
+          "provider": "Wafer",
+          "tag": "wafer",
+          "key": "wafer",
+          "blended": 2.533
+        },
+        {
+          "provider": "Cloudflare",
+          "tag": "cloudflare",
+          "key": "cloudflare",
+          "blended": 2.533
+        },
+        {
+          "provider": "Relace",
+          "tag": "relace/fp4",
+          "key": "relace~fp4",
+          "blended": 0.937
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp4/flex",
+          "key": "deepinfra~fp4~flex",
+          "blended": 0.747
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp4",
+          "key": "deepinfra~fp4",
+          "blended": 0.93375
+        },
+        {
+          "provider": "Ambient",
+          "tag": "ambient/fp8",
+          "key": "ambient~fp8",
+          "blended": 1.02
+        },
+        {
+          "provider": "StreamLake",
+          "tag": "streamlake/fp8",
+          "key": "streamlake~fp8",
+          "blended": 1.00717
+        },
+        {
+          "provider": "CoreWeave",
+          "tag": "coreweave/fp4",
+          "key": "coreweave~fp4",
+          "blended": 1.16
+        },
+        {
+          "provider": "Morph",
+          "tag": "morph/fp8",
+          "key": "morph~fp8",
+          "blended": 1.0435
+        },
+        {
+          "provider": "Novita",
+          "tag": "novita/fp8",
+          "key": "novita~fp8",
+          "blended": 1.0672
+        },
+        {
+          "provider": "SiliconFlow",
+          "tag": "siliconflow/fp8",
+          "key": "siliconflow~fp8",
+          "blended": 1.0695
+        },
+        {
+          "provider": "DigitalOcean",
+          "tag": "digitalocean",
+          "key": "digitalocean",
+          "blended": 1.15
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp4/priority",
+          "key": "deepinfra~fp4~priority",
+          "blended": 1.400625
+        },
+        {
+          "provider": "AtlasCloud",
+          "tag": "atlas-cloud/fp8",
+          "key": "atlas-cloud~fp8",
+          "blended": 1.541
+        },
+        {
+          "provider": "Alibaba",
+          "tag": "alibaba/fp8",
+          "key": "alibaba~fp8",
+          "blended": 1.587
+        },
+        {
+          "provider": "Alibaba",
+          "tag": "alibaba/fp8/us-east-1",
+          "key": "alibaba~fp8~us-east-1",
+          "blended": 1.84
+        },
+        {
+          "provider": "Nebius",
+          "tag": "nebius/fp4",
+          "key": "nebius~fp4",
+          "blended": 2.3
+        },
+        {
+          "provider": "Mistral",
+          "tag": "mistral/zdr",
+          "key": "mistral~zdr",
+          "blended": 2.3
+        },
+        {
+          "provider": "BaseTen",
+          "tag": "baseten/fp8/us",
+          "key": "baseten~fp8~us",
+          "blended": 2.3
+        },
+        {
+          "provider": "Together",
+          "tag": "together",
+          "key": "together",
+          "blended": 2.3
+        },
+        {
+          "provider": "Baidu",
+          "tag": "baidu/fp8",
+          "key": "baidu~fp8",
+          "blended": 2.3
+        },
+        {
+          "provider": "BaseTen",
+          "tag": "baseten/fp8",
+          "key": "baseten~fp8",
+          "blended": 2.3
+        },
+        {
+          "provider": "Venice",
+          "tag": "venice/fp8",
+          "key": "venice~fp8",
+          "blended": 2.3
+        },
+        {
+          "provider": "GMICloud",
+          "tag": "gmicloud/fp8",
+          "key": "gmicloud~fp8",
+          "blended": 2.3
+        },
+        {
+          "provider": "Parasail",
+          "tag": "parasail/fp4",
+          "key": "parasail~fp4",
+          "blended": 2.3
+        },
+        {
+          "provider": "Friendli",
+          "tag": "friendli",
+          "key": "friendli",
+          "blended": 2.3
+        },
+        {
+          "provider": "Z.AI",
+          "tag": "z-ai/fp8",
+          "key": "z-ai~fp8",
+          "blended": 2.3
+        },
+        {
+          "provider": "Mistral",
+          "tag": "mistral/eu",
+          "key": "mistral~eu",
+          "blended": 2.53
+        },
+        {
+          "provider": "BaseTen",
+          "tag": "baseten/us/fast",
+          "key": "baseten~us~fast",
+          "blended": 3.45
+        },
+        {
+          "provider": "BaseTen",
+          "tag": "baseten/fast",
+          "key": "baseten~fast",
+          "blended": 3.45
+        },
+        {
+          "provider": "Baidu",
+          "tag": "baidu/fast",
+          "key": "baidu~fast",
+          "blended": 3.939
+        },
+        {
+          "provider": "Alibaba",
+          "tag": "alibaba/fast",
+          "key": "alibaba~fast",
+          "blended": 3.795
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 1.16,
+      "median": 1.16,
+      "trimmedMedian": 1.16,
+      "providers": [
+        {
+          "provider": "z-ai",
+          "tag": null,
+          "key": "default",
+          "blended": 1.16
+        }
+      ]
+    }
+  ]
+}

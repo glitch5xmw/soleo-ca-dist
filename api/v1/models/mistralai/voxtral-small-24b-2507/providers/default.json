@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "mistralai/voxtral-small-24b-2507",
+    "name": "Mistral: Voxtral Small 24B 2507",
+    "contextLength": 32768
+  },
+  "provider": {
+    "provider": "mistralai",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.1,
+    "output": 0.3,
+    "cacheRead": 0.01,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.16,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 32768,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/mistralai/voxtral-small-24b-2507/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.3,
+        "cacheRead": 0.01
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "openai/gpt-5-nano:batch",
+    "name": "OpenAI: GPT-5 Nano (batch)",
+    "contextLength": 400000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "openai",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.025,
+      "output": 0.2,
+      "cacheRead": 0.0025,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.0775,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 400000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/openai/gpt-5-nano~batch/providers/default.json"
+    },
+    {
+      "provider": "OpenAI",
+      "tag": "openai",
+      "key": "openai",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.025,
+      "output": 0.2,
+      "cacheRead": 0.0025,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.0775,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": null,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-17T23:52:23.322Z",
+      "detail": "models/openai/gpt-5-nano~batch/providers/openai.json"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "anthropic/claude-fable-5.2:batch",
+    "name": "Anthropic: Claude Fable 5.2 (batch)",
+    "contextLength": 1000000
+  },
+  "provider": {
+    "provider": "Anthropic",
+    "tag": "anthropic",
+    "key": "anthropic",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 4,
+    "output": 20,
+    "cacheRead": 0.1,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 8.8,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/anthropic/claude-fable-5.2~batch/providers/anthropic.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 4,
+        "output": 20,
+        "cacheRead": 0.1
+      }
+    }
+  ]
+}

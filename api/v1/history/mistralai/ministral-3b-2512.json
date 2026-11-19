@@ -1,0 +1,80 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "mistralai/ministral-3b-2512",
+    "name": "Mistral: Ministral 3 3B 2512"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 0.1,
+      "median": 0.1,
+      "trimmedMedian": 0.1,
+      "providers": [
+        {
+          "provider": "mistralai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.1
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.1,
+      "median": 0.1,
+      "trimmedMedian": 0.1,
+      "providers": [
+        {
+          "provider": "mistralai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.1
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 2,
+      "min": 0.1,
+      "median": 0.105,
+      "trimmedMedian": 0.105,
+      "providers": [
+        {
+          "provider": "Mistral",
+          "tag": "mistral/zdr",
+          "key": "mistral~zdr",
+          "blended": 0.1
+        },
+        {
+          "provider": "Mistral",
+          "tag": "mistral/eu",
+          "key": "mistral~eu",
+          "blended": 0.11
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.1,
+      "median": 0.1,
+      "trimmedMedian": 0.1,
+      "providers": [
+        {
+          "provider": "mistralai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.1
+        }
+      ]
+    }
+  ]
+}

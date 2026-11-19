@@ -1,0 +1,51 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "bytedance-seed/seed-2.0-lite",
+    "name": "ByteDance Seed: Seed-2.0-Lite",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "bytedance-seed",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.25,
+    "output": 2,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.775,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 262144,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 2,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/bytedance-seed/seed-2.0-lite/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.25,
+        "output": 2,
+        "cacheRead": null
+      }
+    },
+    {
+      "minContextTokens": 128000,
+      "pricing": {
+        "input": 0.5,
+        "output": 4,
+        "cacheRead": null
+      }
+    }
+  ]
+}

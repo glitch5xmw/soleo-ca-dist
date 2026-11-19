@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "z-ai/glm-5",
+    "name": "Z.ai: GLM 5",
+    "contextLength": 204800
+  },
+  "provider": {
+    "provider": "Venice",
+    "tag": "venice/turbo",
+    "key": "venice~turbo",
+    "name": "Venice | z-ai/glm-5-20260211",
+    "quantization": "unknown",
+    "serviceTier": "priority",
+    "input": 1.2,
+    "output": 4,
+    "cacheRead": 0.24,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 2.04,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 200000,
+    "maxCompletionTokens": 32768,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/z-ai/glm-5/providers/venice~turbo.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 1.2,
+        "output": 4,
+        "cacheRead": 0.24
+      }
+    }
+  ]
+}

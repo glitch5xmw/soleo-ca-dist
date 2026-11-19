@@ -1,0 +1,158 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek: DeepSeek V4 Flash 0423"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 15,
+      "min": 0.0936,
+      "median": 0.17,
+      "trimmedMedian": 0.13575,
+      "providers": [
+        {
+          "provider": "Relace",
+          "tag": "relace/fp4",
+          "key": "relace~fp4",
+          "blended": 0.17
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8/flex",
+          "key": "deepinfra~fp8~flex",
+          "blended": 0.0936
+        },
+        {
+          "provider": "StreamLake",
+          "tag": "streamlake/fp8",
+          "key": "streamlake~fp8",
+          "blended": 0.10738
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8",
+          "key": "deepinfra~fp8",
+          "blended": 0.117
+        },
+        {
+          "provider": "GMICloud",
+          "tag": "gmicloud/fp8",
+          "key": "gmicloud~fp8",
+          "blended": 0.1183
+        },
+        {
+          "provider": "Venice",
+          "tag": "venice",
+          "key": "venice",
+          "blended": 0.12537
+        },
+        {
+          "provider": "Fireworks",
+          "tag": "fireworks",
+          "key": "fireworks",
+          "blended": 0.1365
+        },
+        {
+          "provider": "Wafer",
+          "tag": "wafer/mxfp4",
+          "key": "wafer~mxfp4",
+          "blended": 0.135
+        },
+        {
+          "provider": "SiliconFlow",
+          "tag": "siliconflow/fp8",
+          "key": "siliconflow~fp8",
+          "blended": 0.175
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8/priority",
+          "key": "deepinfra~fp8~priority",
+          "blended": 0.1755
+        },
+        {
+          "provider": "Baidu",
+          "tag": "baidu/fp8",
+          "key": "baidu~fp8",
+          "blended": 0.182
+        },
+        {
+          "provider": "AtlasCloud",
+          "tag": "atlas-cloud/fp4",
+          "key": "atlas-cloud~fp4",
+          "blended": 0.182
+        },
+        {
+          "provider": "Parasail",
+          "tag": "parasail/fp8",
+          "key": "parasail~fp8",
+          "blended": 0.182
+        },
+        {
+          "provider": "Mancer 2",
+          "tag": "mancer/fp8",
+          "key": "mancer~fp8",
+          "blended": 0.255
+        },
+        {
+          "provider": "Azure",
+          "tag": "azure/us",
+          "key": "azure~us",
+          "blended": 0.315
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.117,
+      "median": 0.117,
+      "trimmedMedian": 0.117,
+      "providers": [
+        {
+          "provider": "deepseek",
+          "tag": null,
+          "key": "default",
+          "blended": 0.117
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 0.117,
+      "median": 0.117,
+      "trimmedMedian": 0.117,
+      "providers": [
+        {
+          "provider": "deepseek",
+          "tag": null,
+          "key": "default",
+          "blended": 0.117
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.117,
+      "median": 0.117,
+      "trimmedMedian": 0.117,
+      "providers": [
+        {
+          "provider": "deepseek",
+          "tag": null,
+          "key": "default",
+          "blended": 0.117
+        }
+      ]
+    }
+  ]
+}

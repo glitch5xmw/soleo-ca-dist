@@ -1,0 +1,51 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "qwen/qwen3.5-plus-02-15",
+    "name": "Qwen: Qwen3.5 Plus 2026-02-15",
+    "contextLength": 1000000
+  },
+  "provider": {
+    "provider": "Alibaba",
+    "tag": "alibaba",
+    "key": "alibaba",
+    "name": "Alibaba | qwen/qwen3.5-plus-20260216",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 0.26,
+    "output": 1.56,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.65,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 1000000,
+    "maxCompletionTokens": 65536,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 2,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/qwen/qwen3.5-plus-02-15/providers/alibaba.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.26,
+        "output": 1.56,
+        "cacheRead": null
+      }
+    },
+    {
+      "minContextTokens": 256000,
+      "pricing": {
+        "input": 0.325,
+        "output": 1.95,
+        "cacheRead": null
+      }
+    }
+  ]
+}

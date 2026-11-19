@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "deepseek/deepseek-v3.2",
+    "name": "DeepSeek: DeepSeek V3.2",
+    "contextLength": 163840
+  },
+  "provider": {
+    "provider": "AtlasCloud",
+    "tag": "atlas-cloud/fp8",
+    "key": "atlas-cloud~fp8",
+    "name": "AtlasCloud | deepseek/deepseek-v3.2-20251201",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.26,
+    "output": 0.38,
+    "cacheRead": 0.13,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.296,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 163840,
+    "maxCompletionTokens": 147456,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/deepseek/deepseek-v3.2/providers/atlas-cloud~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.26,
+        "output": 0.38,
+        "cacheRead": 0.13
+      }
+    }
+  ]
+}

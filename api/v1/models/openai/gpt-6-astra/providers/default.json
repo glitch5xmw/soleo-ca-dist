@@ -1,0 +1,51 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-6-astra",
+    "name": "OpenAI: GPT-6 Astra",
+    "contextLength": 1050000
+  },
+  "provider": {
+    "provider": "openai",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 10,
+    "output": 50,
+    "cacheRead": 1,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 22,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1050000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 2,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/openai/gpt-6-astra/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 10,
+        "output": 50,
+        "cacheRead": 1
+      }
+    },
+    {
+      "minContextTokens": 272000,
+      "pricing": {
+        "input": 20,
+        "output": 75,
+        "cacheRead": 2
+      }
+    }
+  ]
+}

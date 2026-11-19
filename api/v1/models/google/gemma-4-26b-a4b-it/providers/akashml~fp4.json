@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B ",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "AkashML",
+    "tag": "akashml/fp4",
+    "key": "akashml~fp4",
+    "name": "AkashML | google/gemma-4-26b-a4b-it-20260403",
+    "quantization": "fp4",
+    "serviceTier": null,
+    "input": 0.07,
+    "output": 0.24,
+    "cacheRead": 0.046,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.121,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 131072,
+    "maxCompletionTokens": 117964,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/google/gemma-4-26b-a4b-it/providers/akashml~fp4.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.07,
+        "output": 0.24,
+        "cacheRead": 0.046
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "qwen/qwen2.5-vl-72b-instruct",
+    "name": "Qwen: Qwen2.5 VL 72B Instruct",
+    "contextLength": 128000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "qwen",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.8,
+      "output": 1,
+      "cacheRead": 0.4,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.86,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 128000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/qwen/qwen2.5-vl-72b-instruct/providers/default.json"
+    }
+  ]
+}

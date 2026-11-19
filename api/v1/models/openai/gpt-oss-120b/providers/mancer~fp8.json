@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-oss-120b",
+    "name": "OpenAI: gpt-oss-120b",
+    "contextLength": 131072
+  },
+  "provider": {
+    "provider": "Mancer 2",
+    "tag": "mancer/fp8",
+    "key": "mancer~fp8",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.08,
+    "output": 0.375,
+    "cacheRead": 0.08,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.1685,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/openai/gpt-oss-120b/providers/mancer~fp8.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.08,
+        "output": 0.375,
+        "cacheRead": 0.08
+      }
+    }
+  ]
+}

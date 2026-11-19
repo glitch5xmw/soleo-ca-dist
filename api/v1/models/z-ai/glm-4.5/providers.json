@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "z-ai/glm-4.5",
+    "name": "Z.ai: GLM 4.5",
+    "contextLength": 131072
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "z-ai",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.6,
+      "output": 2.2,
+      "cacheRead": 0.11,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 1.08,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 131072,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/z-ai/glm-4.5/providers/default.json"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "deepseek/deepseek-v3.2-exp",
+    "name": "DeepSeek: DeepSeek V3.2 Exp",
+    "contextLength": 163840
+  },
+  "provider": {
+    "provider": "SiliconFlow",
+    "tag": "siliconflow/fp8",
+    "key": "siliconflow~fp8",
+    "name": "SiliconFlow | deepseek/deepseek-v3.2-exp",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.27,
+    "output": 0.41,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.312,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 163840,
+    "maxCompletionTokens": 147456,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/deepseek/deepseek-v3.2-exp/providers/siliconflow~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.27,
+        "output": 0.41,
+        "cacheRead": null
+      }
+    }
+  ]
+}

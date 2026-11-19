@@ -1,0 +1,60 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "qwen/qwen3-vl-8b-instruct",
+    "name": "Qwen: Qwen3 VL 8B Instruct",
+    "contextLength": 262144
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "qwen",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.25,
+      "output": 0.75,
+      "cacheRead": 0.12,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.4,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 262144,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/qwen/qwen3-vl-8b-instruct/providers/default.json"
+    },
+    {
+      "provider": "Parasail",
+      "tag": "parasail/bf16",
+      "key": "parasail~bf16",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.25,
+      "output": 0.75,
+      "cacheRead": 0.12,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.4,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": null,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-17T23:52:23.322Z",
+      "detail": "models/qwen/qwen3-vl-8b-instruct/providers/parasail~bf16.json"
+    }
+  ]
+}

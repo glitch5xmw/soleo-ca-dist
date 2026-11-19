@@ -1,0 +1,60 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "cohere/command-r7b-12-2024",
+    "name": "Cohere: Command R7B (12-2024)",
+    "contextLength": 128000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "cohere",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.0375,
+      "output": 0.15,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.07125,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 128000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/cohere/command-r7b-12-2024/providers/default.json"
+    },
+    {
+      "provider": "Cohere",
+      "tag": "cohere",
+      "key": "cohere",
+      "name": "Cohere | cohere/command-r7b-12-2024",
+      "quantization": "unknown",
+      "serviceTier": null,
+      "input": 0.0375,
+      "output": 0.15,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.07125,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 128000,
+      "maxCompletionTokens": 4000,
+      "supportsImplicitCaching": false,
+      "status": 0,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:01:45.728Z",
+      "detail": "models/cohere/command-r7b-12-2024/providers/cohere.json"
+    }
+  ]
+}

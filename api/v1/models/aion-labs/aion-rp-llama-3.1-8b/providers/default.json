@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "aion-labs/aion-rp-llama-3.1-8b",
+    "name": "AionLabs: Aion-RP 1.0 (8B)",
+    "contextLength": 32768
+  },
+  "provider": {
+    "provider": "aion-labs",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.8,
+    "output": 1.6,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 1.04,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 32768,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/aion-labs/aion-rp-llama-3.1-8b/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.8,
+        "output": 1.6,
+        "cacheRead": null
+      }
+    }
+  ]
+}

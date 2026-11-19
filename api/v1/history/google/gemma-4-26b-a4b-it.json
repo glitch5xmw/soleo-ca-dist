@@ -1,0 +1,158 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "google/gemma-4-26b-a4b-it",
+    "name": "Google: Gemma 4 26B A4B "
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 0.13005,
+      "median": 0.13005,
+      "trimmedMedian": 0.13005,
+      "providers": [
+        {
+          "provider": "google",
+          "tag": null,
+          "key": "default",
+          "blended": 0.13005
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.13005,
+      "median": 0.13005,
+      "trimmedMedian": 0.13005,
+      "providers": [
+        {
+          "provider": "google",
+          "tag": null,
+          "key": "default",
+          "blended": 0.13005
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 15,
+      "min": 0.073,
+      "median": 0.16,
+      "trimmedMedian": 0.152,
+      "providers": [
+        {
+          "provider": "Darkbloom",
+          "tag": "darkbloom",
+          "key": "darkbloom",
+          "blended": 0.073
+        },
+        {
+          "provider": "DekaLLM",
+          "tag": "dekallm/bf16",
+          "key": "dekallm~bf16",
+          "blended": 0.141
+        },
+        {
+          "provider": "Io Net",
+          "tag": "io-net/bf16",
+          "key": "io-net~bf16",
+          "blended": 0.1339
+        },
+        {
+          "provider": "AkashML",
+          "tag": "akashml/fp4",
+          "key": "akashml~fp4",
+          "blended": 0.121
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8",
+          "key": "deepinfra~fp8",
+          "blended": 0.151
+        },
+        {
+          "provider": "Makora",
+          "tag": "makora",
+          "key": "makora",
+          "blended": 0.147
+        },
+        {
+          "provider": "NextBit",
+          "tag": "nextbit/bf16",
+          "key": "nextbit~bf16",
+          "blended": 0.153
+        },
+        {
+          "provider": "PrimeIntellect",
+          "tag": "primeintellect/bf16",
+          "key": "primeintellect~bf16",
+          "blended": 0.16
+        },
+        {
+          "provider": "CoreWeave",
+          "tag": "coreweave/bf16",
+          "key": "coreweave~bf16",
+          "blended": 0.16
+        },
+        {
+          "provider": "Cloudflare",
+          "tag": "cloudflare",
+          "key": "cloudflare",
+          "blended": 0.16
+        },
+        {
+          "provider": "Venice",
+          "tag": "venice/bf16",
+          "key": "venice~bf16",
+          "blended": 0.211
+        },
+        {
+          "provider": "Parasail",
+          "tag": "parasail/bf16",
+          "key": "parasail~bf16",
+          "blended": 0.211
+        },
+        {
+          "provider": "Novita",
+          "tag": "novita/bf16",
+          "key": "novita~bf16",
+          "blended": 0.211
+        },
+        {
+          "provider": "SiliconFlow",
+          "tag": "siliconflow/fp8",
+          "key": "siliconflow~fp8",
+          "blended": 0.218
+        },
+        {
+          "provider": "Google",
+          "tag": "google-vertex/global",
+          "key": "google-vertex~global",
+          "blended": 0.285
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.153,
+      "median": 0.153,
+      "trimmedMedian": 0.153,
+      "providers": [
+        {
+          "provider": "google",
+          "tag": null,
+          "key": "default",
+          "blended": 0.153
+        }
+      ]
+    }
+  ]
+}

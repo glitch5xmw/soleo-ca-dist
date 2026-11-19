@@ -1,0 +1,158 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "minimax/minimax-m3.1-flash",
+    "name": "MiniMax: MiniMax M3.1 Flash"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 15,
+      "min": 0.1425,
+      "median": 0.285,
+      "trimmedMedian": 0.285,
+      "providers": [
+        {
+          "provider": "Minimax",
+          "tag": "minimax",
+          "key": "minimax",
+          "blended": 0.1425
+        },
+        {
+          "provider": "StreamLake",
+          "tag": "streamlake/fp8",
+          "key": "streamlake~fp8",
+          "blended": 0.2565
+        },
+        {
+          "provider": "Wafer",
+          "tag": "wafer/nvfp4",
+          "key": "wafer~nvfp4",
+          "blended": 0.2565
+        },
+        {
+          "provider": "Makora",
+          "tag": "makora/fp4",
+          "key": "makora~fp4",
+          "blended": 0.285
+        },
+        {
+          "provider": "Fireworks",
+          "tag": "fireworks",
+          "key": "fireworks",
+          "blended": 0.285
+        },
+        {
+          "provider": "InferenceNet",
+          "tag": "inference-net/fp4",
+          "key": "inference-net~fp4",
+          "blended": 0.285
+        },
+        {
+          "provider": "DigitalOcean",
+          "tag": "digitalocean",
+          "key": "digitalocean",
+          "blended": 0.285
+        },
+        {
+          "provider": "Nebius",
+          "tag": "nebius/fp4",
+          "key": "nebius~fp4",
+          "blended": 0.285
+        },
+        {
+          "provider": "SambaNova",
+          "tag": "sambanova",
+          "key": "sambanova",
+          "blended": 0.285
+        },
+        {
+          "provider": "ModelRun",
+          "tag": "modelrun/fp4",
+          "key": "modelrun~fp4",
+          "blended": 0.285
+        },
+        {
+          "provider": "Parasail",
+          "tag": "parasail/fp8",
+          "key": "parasail~fp8",
+          "blended": 0.285
+        },
+        {
+          "provider": "InferenceNet",
+          "tag": "inference-net/fp4/us",
+          "key": "inference-net~fp4~us",
+          "blended": 0.285
+        },
+        {
+          "provider": "Together",
+          "tag": "together",
+          "key": "together",
+          "blended": 0.285
+        },
+        {
+          "provider": "Inferact vLLM",
+          "tag": "inferact-vllm/nvfp4",
+          "key": "inferact-vllm~nvfp4",
+          "blended": 0.285
+        },
+        {
+          "provider": "GMICloud",
+          "tag": "gmicloud/fp8",
+          "key": "gmicloud~fp8",
+          "blended": 0.285
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.1425,
+      "median": 0.1425,
+      "trimmedMedian": 0.1425,
+      "providers": [
+        {
+          "provider": "minimax",
+          "tag": null,
+          "key": "default",
+          "blended": 0.1425
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 0.285,
+      "median": 0.285,
+      "trimmedMedian": 0.285,
+      "providers": [
+        {
+          "provider": "minimax",
+          "tag": null,
+          "key": "default",
+          "blended": 0.285
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.285,
+      "median": 0.285,
+      "trimmedMedian": 0.285,
+      "providers": [
+        {
+          "provider": "minimax",
+          "tag": null,
+          "key": "default",
+          "blended": 0.285
+        }
+      ]
+    }
+  ]
+}

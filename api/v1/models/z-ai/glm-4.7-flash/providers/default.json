@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "z-ai/glm-4.7-flash",
+    "name": "Z.ai: GLM 4.7 Flash",
+    "contextLength": 200000
+  },
+  "provider": {
+    "provider": "z-ai",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.0605,
+    "output": 0.4,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.16235,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 200000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/z-ai/glm-4.7-flash/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.0605,
+        "output": 0.4,
+        "cacheRead": null
+      }
+    }
+  ]
+}

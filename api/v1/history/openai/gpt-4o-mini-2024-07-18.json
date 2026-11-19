@@ -1,0 +1,74 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "openai/gpt-4o-mini-2024-07-18",
+    "name": "OpenAI: GPT-4o-mini (2024-07-18)"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 0.285,
+      "median": 0.285,
+      "trimmedMedian": 0.285,
+      "providers": [
+        {
+          "provider": "openai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.285
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.285,
+      "median": 0.285,
+      "trimmedMedian": 0.285,
+      "providers": [
+        {
+          "provider": "openai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.285
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 0.285,
+      "median": 0.285,
+      "trimmedMedian": 0.285,
+      "providers": [
+        {
+          "provider": "openai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.285
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.285,
+      "median": 0.285,
+      "trimmedMedian": 0.285,
+      "providers": [
+        {
+          "provider": "openai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.285
+        }
+      ]
+    }
+  ]
+}

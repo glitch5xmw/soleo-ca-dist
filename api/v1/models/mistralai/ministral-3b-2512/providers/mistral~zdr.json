@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "mistralai/ministral-3b-2512",
+    "name": "Mistral: Ministral 3 3B 2512",
+    "contextLength": 131072
+  },
+  "provider": {
+    "provider": "Mistral",
+    "tag": "mistral/zdr",
+    "key": "mistral~zdr",
+    "name": "Mistral | mistralai/ministral-3b-2512",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 0.1,
+    "output": 0.1,
+    "cacheRead": 0.01,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.1,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 131072,
+    "maxCompletionTokens": 104857,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/mistralai/ministral-3b-2512/providers/mistral~zdr.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.1,
+        "cacheRead": 0.01
+      }
+    }
+  ]
+}

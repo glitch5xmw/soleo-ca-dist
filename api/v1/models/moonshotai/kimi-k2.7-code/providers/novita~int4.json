@@ -1,0 +1,44 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "moonshotai/kimi-k2.7-code",
+    "name": "MoonshotAI: Kimi K2.7 Code",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "Novita",
+    "tag": "novita/int4",
+    "key": "novita~int4",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.912,
+    "output": 3.84,
+    "cacheRead": 0.1824,
+    "cacheWrite": null,
+    "discount": 0.04,
+    "blended": 1.7904,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/moonshotai/kimi-k2.7-code/providers/novita~int4.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.912,
+        "output": 3.84,
+        "cacheRead": 0.1824
+      },
+      "discount": 0.04
+    }
+  ]
+}

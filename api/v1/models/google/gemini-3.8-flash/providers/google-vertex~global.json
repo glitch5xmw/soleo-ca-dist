@@ -1,0 +1,44 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "google/gemini-3.8-flash",
+    "name": "Google: Gemini 3.8 Flash",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "Google",
+    "tag": "google-vertex/global",
+    "key": "google-vertex~global",
+    "name": "Google | google/gemini-3.8-flash-20260902",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 0.75,
+    "output": 3.75,
+    "cacheRead": 0.075,
+    "cacheWrite": null,
+    "discount": 0.5,
+    "blended": 1.65,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 1048576,
+    "maxCompletionTokens": 65536,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/google/gemini-3.8-flash/providers/google-vertex~global.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.75,
+        "output": 3.75,
+        "cacheRead": 0.075
+      },
+      "discount": 0.5
+    }
+  ]
+}

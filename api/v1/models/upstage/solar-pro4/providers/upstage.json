@@ -1,0 +1,44 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "upstage/solar-pro4",
+    "name": "Upstage: Solar Pro 4",
+    "contextLength": 524288
+  },
+  "provider": {
+    "provider": "Upstage",
+    "tag": "upstage",
+    "key": "upstage",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.15,
+    "output": 0.6,
+    "cacheRead": 0.03,
+    "cacheWrite": null,
+    "discount": 0.5,
+    "blended": 0.285,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/upstage/solar-pro4/providers/upstage.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.15,
+        "output": 0.6,
+        "cacheRead": 0.03
+      },
+      "discount": 0.5
+    }
+  ]
+}

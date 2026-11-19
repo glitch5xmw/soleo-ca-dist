@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "sakana/sakana-namazu",
+    "name": "Sakana: Sakana Namazu",
+    "contextLength": 262144
+  },
+  "provider": {
+    "provider": "Sakana AI",
+    "tag": "sakana",
+    "key": "sakana",
+    "name": "Sakana AI | sakana/namazu-20260811",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 0.95,
+    "output": 4,
+    "cacheRead": 0.15,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 1.865,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 262144,
+    "maxCompletionTokens": 65536,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/sakana/sakana-namazu/providers/sakana.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.95,
+        "output": 4,
+        "cacheRead": 0.15
+      }
+    }
+  ]
+}

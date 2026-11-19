@@ -1,0 +1,36 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "openai/gpt-oss-safeguard-20b",
+    "name": "OpenAI: gpt-oss-safeguard-20b",
+    "contextLength": 131072
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "openai",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.075,
+      "output": 0.3,
+      "cacheRead": 0.0375,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.1425,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 131072,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/openai/gpt-oss-safeguard-20b/providers/default.json"
+    }
+  ]
+}

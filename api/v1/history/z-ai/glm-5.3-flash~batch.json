@@ -1,0 +1,92 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "z-ai/glm-5.3-flash:batch",
+    "name": "Z.ai: GLM 5.3 Flash (batch)"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 4,
+      "min": 0.0375,
+      "median": 0.10825,
+      "trimmedMedian": 0.089,
+      "providers": [
+        {
+          "provider": "Morph",
+          "tag": "morph/fp8",
+          "key": "morph~fp8",
+          "blended": 0.0375
+        },
+        {
+          "provider": "Sail Research",
+          "tag": "sail-research/fp4",
+          "key": "sail-research~fp4",
+          "blended": 0.089
+        },
+        {
+          "provider": "Together",
+          "tag": "together",
+          "key": "together",
+          "blended": 0.1275
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp4",
+          "key": "deepinfra~fp4",
+          "blended": 0.204
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.0375,
+      "median": 0.0375,
+      "trimmedMedian": 0.0375,
+      "providers": [
+        {
+          "provider": "z-ai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.0375
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 0.0375,
+      "median": 0.0375,
+      "trimmedMedian": 0.0375,
+      "providers": [
+        {
+          "provider": "z-ai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.0375
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.0375,
+      "median": 0.0375,
+      "trimmedMedian": 0.0375,
+      "providers": [
+        {
+          "provider": "z-ai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.0375
+        }
+      ]
+    }
+  ]
+}

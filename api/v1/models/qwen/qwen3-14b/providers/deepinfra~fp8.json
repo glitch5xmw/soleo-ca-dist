@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "qwen/qwen3-14b",
+    "name": "Qwen: Qwen3 14B",
+    "contextLength": 40960
+  },
+  "provider": {
+    "provider": "DeepInfra",
+    "tag": "deepinfra/fp8",
+    "key": "deepinfra~fp8",
+    "name": "DeepInfra | qwen/qwen3-14b-04-28",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.12,
+    "output": 0.24,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.156,
+    "throughput": null,
+    "latency": null,
+    "uptime": 86.36363636363636,
+    "contextLength": 40960,
+    "maxCompletionTokens": 16384,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/qwen/qwen3-14b/providers/deepinfra~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.12,
+        "output": 0.24,
+        "cacheRead": null
+      }
+    }
+  ]
+}

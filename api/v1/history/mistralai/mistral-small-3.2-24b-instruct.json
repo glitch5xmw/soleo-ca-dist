@@ -1,0 +1,98 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "mistralai/mistral-small-3.2-24b-instruct",
+    "name": "Mistral: Mistral Small 3.2 24B"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 5,
+      "min": 0.09,
+      "median": 0.140625,
+      "trimmedMedian": 0.126563,
+      "providers": [
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8/flex",
+          "key": "deepinfra~fp8~flex",
+          "blended": 0.09
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8",
+          "key": "deepinfra~fp8",
+          "blended": 0.1125
+        },
+        {
+          "provider": "Parasail",
+          "tag": "parasail/bf16",
+          "key": "parasail~bf16",
+          "blended": 0.153
+        },
+        {
+          "provider": "Venice",
+          "tag": "venice/fp8",
+          "key": "venice~fp8",
+          "blended": 0.140625
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8/priority",
+          "key": "deepinfra~fp8~priority",
+          "blended": 0.16875
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.1125,
+      "median": 0.1125,
+      "trimmedMedian": 0.1125,
+      "providers": [
+        {
+          "provider": "mistralai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.1125
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 0.1125,
+      "median": 0.1125,
+      "trimmedMedian": 0.1125,
+      "providers": [
+        {
+          "provider": "mistralai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.1125
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.1125,
+      "median": 0.1125,
+      "trimmedMedian": 0.1125,
+      "providers": [
+        {
+          "provider": "mistralai",
+          "tag": null,
+          "key": "default",
+          "blended": 0.1125
+        }
+      ]
+    }
+  ]
+}

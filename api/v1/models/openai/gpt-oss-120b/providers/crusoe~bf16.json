@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-oss-120b",
+    "name": "OpenAI: gpt-oss-120b",
+    "contextLength": 131072
+  },
+  "provider": {
+    "provider": "Crusoe",
+    "tag": "crusoe/bf16",
+    "key": "crusoe~bf16",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.05,
+    "output": 0.25,
+    "cacheRead": 0.05,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.11,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/openai/gpt-oss-120b/providers/crusoe~bf16.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.05,
+        "output": 0.25,
+        "cacheRead": 0.05
+      }
+    }
+  ]
+}

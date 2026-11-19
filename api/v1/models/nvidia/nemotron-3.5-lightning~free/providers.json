@@ -1,0 +1,60 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "nvidia/nemotron-3.5-lightning:free",
+    "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+    "contextLength": 1000000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "nvidia",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0,
+      "output": 0,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 1000000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/nvidia/nemotron-3.5-lightning~free/providers/default.json"
+    },
+    {
+      "provider": "Nvidia",
+      "tag": "nvidia/nvfp4",
+      "key": "nvidia~nvfp4",
+      "name": "Nvidia | nvidia/nemotron-3.5-lightning-20260807:free",
+      "quantization": "nvfp4",
+      "serviceTier": null,
+      "input": 0,
+      "output": 0,
+      "cacheRead": null,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0,
+      "throughput": null,
+      "latency": null,
+      "uptime": 100,
+      "contextLength": 1000000,
+      "maxCompletionTokens": 65536,
+      "supportsImplicitCaching": false,
+      "status": 0,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:01:45.728Z",
+      "detail": "models/nvidia/nemotron-3.5-lightning~free/providers/nvidia~nvfp4.json"
+    }
+  ]
+}

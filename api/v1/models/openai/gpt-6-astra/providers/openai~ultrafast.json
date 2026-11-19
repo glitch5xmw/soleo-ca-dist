@@ -1,0 +1,51 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-6-astra",
+    "name": "OpenAI: GPT-6 Astra",
+    "contextLength": 1050000
+  },
+  "provider": {
+    "provider": "OpenAI",
+    "tag": "openai/ultrafast",
+    "key": "openai~ultrafast",
+    "name": "OpenAI | openai/gpt-6-astra-20260903",
+    "quantization": "unknown",
+    "serviceTier": "ultrafast",
+    "input": 60,
+    "output": 300,
+    "cacheRead": 6,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 132,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1050000,
+    "maxCompletionTokens": 128000,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 2,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/openai/gpt-6-astra/providers/openai~ultrafast.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 60,
+        "output": 300,
+        "cacheRead": 6
+      }
+    },
+    {
+      "minContextTokens": 272000,
+      "pricing": {
+        "input": 120,
+        "output": 450,
+        "cacheRead": 12
+      }
+    }
+  ]
+}

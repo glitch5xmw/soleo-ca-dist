@@ -1,0 +1,74 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "reflection/beam-1.0-501b-a23b",
+    "name": "Reflection: Beam 1.0 501B A23B"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 0.51,
+      "median": 0.51,
+      "trimmedMedian": 0.51,
+      "providers": [
+        {
+          "provider": "reflection",
+          "tag": null,
+          "key": "default",
+          "blended": 0.51
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.51,
+      "median": 0.51,
+      "trimmedMedian": 0.51,
+      "providers": [
+        {
+          "provider": "reflection",
+          "tag": null,
+          "key": "default",
+          "blended": 0.51
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 0.475,
+      "median": 0.475,
+      "trimmedMedian": 0.475,
+      "providers": [
+        {
+          "provider": "reflection",
+          "tag": null,
+          "key": "default",
+          "blended": 0.475
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.475,
+      "median": 0.475,
+      "trimmedMedian": 0.475,
+      "providers": [
+        {
+          "provider": "reflection",
+          "tag": null,
+          "key": "default",
+          "blended": 0.475
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "google/gemini-3.1-flash-image-preview",
+    "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+    "contextLength": 65536
+  },
+  "provider": {
+    "provider": "google",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.5,
+    "output": 3,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 1.25,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 65536,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/google/gemini-3.1-flash-image-preview/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.5,
+        "output": 3,
+        "cacheRead": null
+      }
+    }
+  ]
+}

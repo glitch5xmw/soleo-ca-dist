@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "z-ai/glm-5.3-prime",
+    "name": "Z.ai: GLM 5.3 Prime",
+    "contextLength": 1000000
+  },
+  "provider": {
+    "provider": "z-ai",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 1.68,
+    "output": 5.28,
+    "cacheRead": 0.336,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 2.76,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1000000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/z-ai/glm-5.3-prime/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 1.68,
+        "output": 5.28,
+        "cacheRead": 0.336
+      }
+    }
+  ]
+}

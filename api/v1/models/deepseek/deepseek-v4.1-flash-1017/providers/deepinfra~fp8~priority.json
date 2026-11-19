@@ -1,0 +1,44 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "DeepInfra",
+    "tag": "deepinfra/fp8/priority",
+    "key": "deepinfra~fp8~priority",
+    "name": "DeepInfra | deepseek/deepseek-v4.1-flash-20261017",
+    "quantization": "fp8",
+    "serviceTier": "priority",
+    "input": 0.147,
+    "output": 0.441,
+    "cacheRead": 0.00441,
+    "cacheWrite": null,
+    "discount": 0.51,
+    "blended": 0.2352,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 1048576,
+    "maxCompletionTokens": 393216,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/deepseek/deepseek-v4.1-flash-1017/providers/deepinfra~fp8~priority.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.147,
+        "output": 0.441,
+        "cacheRead": 0.00441
+      },
+      "discount": 0.51
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "anthropic/claude-opus-4.1",
+    "name": "Anthropic: Claude Opus 4.1",
+    "contextLength": 200000
+  },
+  "provider": {
+    "provider": "anthropic",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 15,
+    "output": 75,
+    "cacheRead": 1.5,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 33,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 200000,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/anthropic/claude-opus-4.1/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 15,
+        "output": 75,
+        "cacheRead": 1.5
+      }
+    }
+  ]
+}

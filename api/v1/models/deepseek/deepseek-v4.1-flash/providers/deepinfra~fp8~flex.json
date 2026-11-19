@@ -1,0 +1,44 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "DeepInfra",
+    "tag": "deepinfra/fp8/flex",
+    "key": "deepinfra~fp8~flex",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.112,
+    "output": 0.336,
+    "cacheRead": 0.00336,
+    "cacheWrite": null,
+    "discount": 0.3,
+    "blended": 0.1792,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/deepseek/deepseek-v4.1-flash/providers/deepinfra~fp8~flex.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.112,
+        "output": 0.336,
+        "cacheRead": 0.00336
+      },
+      "discount": 0.3
+    }
+  ]
+}

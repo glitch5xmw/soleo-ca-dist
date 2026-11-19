@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "reflection/beam-1.0-501b-a23b",
+    "name": "Reflection: Beam 1.0 501B A23B",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "reflection",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.25,
+    "output": 1,
+    "cacheRead": 0.05,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.475,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1048576,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/reflection/beam-1.0-501b-a23b/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.25,
+        "output": 1,
+        "cacheRead": 0.05
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "thedrummer/skyfall-36b-v2",
+    "name": "TheDrummer: Skyfall 36B V2",
+    "contextLength": 32768
+  },
+  "provider": {
+    "provider": "thedrummer",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.55,
+    "output": 0.8,
+    "cacheRead": 0.25,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.625,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 32768,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/thedrummer/skyfall-36b-v2/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.55,
+        "output": 0.8,
+        "cacheRead": 0.25
+      }
+    }
+  ]
+}

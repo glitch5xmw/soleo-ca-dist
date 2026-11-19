@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "google/lyria-3-pro-preview",
+    "name": "Google: Lyria 3 Pro Preview",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "google",
+    "tag": null,
+    "key": "default",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0,
+    "output": 0,
+    "cacheRead": null,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1048576,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/google/lyria-3-pro-preview/providers/default.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0,
+        "output": 0,
+        "cacheRead": null
+      }
+    }
+  ]
+}

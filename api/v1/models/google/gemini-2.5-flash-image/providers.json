@@ -1,0 +1,60 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "google/gemini-2.5-flash-image",
+    "name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
+    "contextLength": 32768
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "google",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.3,
+      "output": 2.5,
+      "cacheRead": 0.03,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.96,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 32768,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/google/gemini-2.5-flash-image/providers/default.json"
+    },
+    {
+      "provider": "Google",
+      "tag": "google-vertex/global",
+      "key": "google-vertex~global",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.3,
+      "output": 2.5,
+      "cacheRead": 0.03,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.96,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": null,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-17T23:52:23.322Z",
+      "detail": "models/google/gemini-2.5-flash-image/providers/google-vertex~global.json"
+    }
+  ]
+}

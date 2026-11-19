@@ -1,0 +1,60 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "moonshotai/kimi-k3:batch",
+    "name": "MoonshotAI: Kimi K3 (batch)",
+    "contextLength": 1048576
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "moonshotai",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 2.28,
+      "output": 11.4,
+      "cacheRead": 0.228,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 5.016,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 1048576,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/moonshotai/kimi-k3~batch/providers/default.json"
+    },
+    {
+      "provider": "DeepInfra",
+      "tag": "deepinfra/bf16",
+      "key": "deepinfra~bf16",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 2.28,
+      "output": 11.4,
+      "cacheRead": 0.228,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 5.016,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": null,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 1,
+      "observedAt": "2026-11-17T23:52:23.322Z",
+      "detail": "models/moonshotai/kimi-k3~batch/providers/deepinfra~bf16.json"
+    }
+  ]
+}

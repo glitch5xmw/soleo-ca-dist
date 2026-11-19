@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "z-ai/glm-5",
+    "name": "Z.ai: GLM 5",
+    "contextLength": 204800
+  },
+  "provider": {
+    "provider": "Novita",
+    "tag": "novita/fp8",
+    "key": "novita~fp8",
+    "name": "Novita | z-ai/glm-5-20260211",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 1,
+    "output": 3.2,
+    "cacheRead": 0.2,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 1.66,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 202800,
+    "maxCompletionTokens": 131072,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/z-ai/glm-5/providers/novita~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 1,
+        "output": 3.2,
+        "cacheRead": 0.2
+      }
+    }
+  ]
+}

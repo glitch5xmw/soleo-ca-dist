@@ -1,0 +1,44 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "DeepInfra",
+    "tag": "deepinfra/fp4",
+    "key": "deepinfra~fp4",
+    "name": "DeepInfra | z-ai/glm-5.2-20260616",
+    "quantization": "fp4",
+    "serviceTier": null,
+    "input": 0.5625,
+    "output": 1.8,
+    "cacheRead": 0.105,
+    "cacheWrite": null,
+    "discount": 0.25,
+    "blended": 0.93375,
+    "throughput": null,
+    "latency": null,
+    "uptime": 86.66666666666667,
+    "contextLength": 1048576,
+    "maxCompletionTokens": 163840,
+    "supportsImplicitCaching": true,
+    "status": -2,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/z-ai/glm-5.2/providers/deepinfra~fp4.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.5625,
+        "output": 1.8,
+        "cacheRead": 0.105
+      },
+      "discount": 0.25
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "deepseek/deepseek-v4.1-flash",
+    "name": "DeepSeek: DeepSeek V4.1 Flash"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 37,
+      "min": 0.171,
+      "median": 0.37375,
+      "trimmedMedian": 0.33125,
+      "providers": [
+        {
+          "provider": "Wafer",
+          "tag": "wafer/us",
+          "key": "wafer~us",
+          "blended": 0.2058
+        },
+        {
+          "provider": "Alibaba",
+          "tag": "alibaba",
+          "key": "alibaba",
+          "blended": 0.171
+        },
+        {
+          "provider": "OpenInference",
+          "tag": "open-inference/fp4",
+          "key": "open-inference~fp4",
+          "blended": 0.423
+        },
+        {
+          "provider": "Cloudflare",
+          "tag": "cloudflare",
+          "key": "cloudflare",
+          "blended": 0.34
+        },
+        {
+          "provider": "InferenceNet",
+          "tag": "inference-net/us",
+          "key": "inference-net~us",
+          "blended": 0.2521
+        },
+        {
+          "provider": "InferenceNet",
+          "tag": "inference-net/fp8",
+          "key": "inference-net~fp8",
+          "blended": 0.2521
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8/flex",
+          "key": "deepinfra~fp8~flex",
+          "blended": 0.1792
+        },
+        {
+          "provider": "River",
+          "tag": "river",
+          "key": "river",
+          "blended": 0.228
+        },
+        {
+          "provider": "Novita",
+          "tag": "novita/fp8",
+          "key": "novita~fp8",
+          "blended": 0.228
+        },
+        {
+          "provider": "Relace",
+          "tag": "relace/fp4",
+          "key": "relace~fp4",
+          "blended": 0.234
+        },
+        {
+          "provider": "Reka",
+          "tag": "reka",
+          "key": "reka",
+          "blended": 0.276
+        },
+        {
+          "provider": "CoreWeave",
+          "tag": "coreweave/fp8",
+          "key": "coreweave~fp8",
+          "blended": 0.286
+        },
+        {
+          "provider": "AtlasCloud",
+          "tag": "atlas-cloud/fp8",
+          "key": "atlas-cloud~fp8",
+          "blended": 0.2565
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8",
+          "key": "deepinfra~fp8",
+          "blended": 0.224
+        },
+        {
+          "provider": "StreamLake",
+          "tag": "streamlake/fp8",
+          "key": "streamlake~fp8",
+          "blended": 0.2793
+        },
+        {
+          "provider": "GMICloud",
+          "tag": "gmicloud/fp8",
+          "key": "gmicloud~fp8",
+          "blended": 0.342
+        },
+        {
+          "provider": "Wafer",
+          "tag": "wafer/mxfp4",
+          "key": "wafer~mxfp4",
+          "blended": 0.328
+        },
+        {
+          "provider": "Cohere",
+          "tag": "cohere/fp8",
+          "key": "cohere~fp8",
+          "blended": 0.3345
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp8/priority",
+          "key": "deepinfra~fp8~priority",
+          "blended": 0.336
+        },
+        {
+          "provider": "Fireworks",
+          "tag": "fireworks/spot",
+          "key": "fireworks~spot",
+          "blended": 0.399
+        },
+        {
+          "provider": "Mancer 2",
+          "tag": "mancer/fp8",
+          "key": "mancer~fp8",
+          "blended": 0.37375
+        },
+        {
+          "provider": "DigitalOcean",
+          "tag": "digitalocean",
+          "key": "digitalocean",
+          "blended": 0.4275
+        },
+        {
+          "provider": "Makora",
+          "tag": "makora/fp8",
+          "key": "makora~fp8",
+          "blended": 0.533
+        },
+        {
+          "provider": "Crusoe",
+          "tag": "crusoe/fp8",
+          "key": "crusoe~fp8",
+          "blended": 0.563
+        },
+        {
+          "provider": "Google",
+          "tag": "google-vertex/global",
+          "key": "google-vertex~global",
+          "blended": 0.57
+        },
+        {
+          "provider": "Baidu",
+          "tag": "baidu/fp8",
+          "key": "baidu~fp8",
+          "blended": 0.57
+        },
+        {
+          "provider": "BaseTen",
+          "tag": "baseten/us",
+          "key": "baseten~us",
+          "blended": 0.57
+        },
+        {
+          "provider": "Together",
+          "tag": "together",
+          "key": "together",
+          "blended": 0.57
+        },
+        {
+          "provider": "SiliconFlow",
+          "tag": "siliconflow/fp8",
+          "key": "siliconflow~fp8",
+          "blended": 0.57
+        },
+        {
+          "provider": "Modal",
+          "tag": "modal",
+          "key": "modal",
+          "blended": 0.57
+        },
+        {
+          "provider": "BaseTen",
+          "tag": "baseten",
+          "key": "baseten",
+          "blended": 0.57
+        },
+        {
+          "provider": "Parasail",
+          "tag": "parasail/fp8",
+          "key": "parasail~fp8",
+          "blended": 0.57
+        },
+        {
+          "provider": "Fireworks",
+          "tag": "fireworks",
+          "key": "fireworks",
+          "blended": 0.57
+        },
+        {
+          "provider": "Venice",
+          "tag": "venice/fp8",
+          "key": "venice~fp8",
+          "blended": 0.57
+        },
+        {
+          "provider": "Parasail",
+          "tag": "parasail/fast",
+          "key": "parasail~fast",
+          "blended": 0.855
+        },
+        {
+          "provider": "Fireworks",
+          "tag": "fireworks/us",
+          "key": "fireworks~us",
+          "blended": 0.855
+        },
+        {
+          "provider": "Venice",
+          "tag": "venice/ultrafast",
+          "key": "venice~ultrafast",
+          "blended": 5.7
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.2058,
+      "median": 0.2058,
+      "trimmedMedian": 0.2058,
+      "providers": [
+        {
+          "provider": "deepseek",
+          "tag": null,
+          "key": "default",
+          "blended": 0.2058
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 1,
+      "min": 0.57,
+      "median": 0.57,
+      "trimmedMedian": 0.57,
+      "providers": [
+        {
+          "provider": "deepseek",
+          "tag": null,
+          "key": "default",
+          "blended": 0.57
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.57,
+      "median": 0.57,
+      "trimmedMedian": 0.57,
+      "providers": [
+        {
+          "provider": "deepseek",
+          "tag": null,
+          "key": "default",
+          "blended": 0.57
+        }
+      ]
+    }
+  ]
+}

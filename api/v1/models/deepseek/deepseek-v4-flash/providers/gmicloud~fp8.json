@@ -1,0 +1,44 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "GMICloud",
+    "tag": "gmicloud/fp8",
+    "key": "gmicloud~fp8",
+    "name": null,
+    "quantization": null,
+    "serviceTier": null,
+    "input": 0.091,
+    "output": 0.182,
+    "cacheRead": 0.0182,
+    "cacheWrite": null,
+    "discount": 0.35,
+    "blended": 0.1183,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": null,
+    "maxCompletionTokens": null,
+    "supportsImplicitCaching": null,
+    "status": null,
+    "tierCount": 1,
+    "observedAt": "2026-11-17T23:52:23.322Z",
+    "detail": "models/deepseek/deepseek-v4-flash/providers/gmicloud~fp8.json"
+  },
+  "observedAt": "2026-11-17T23:52:23.322Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.091,
+        "output": 0.182,
+        "cacheRead": 0.0182
+      },
+      "discount": 0.35
+    }
+  ]
+}

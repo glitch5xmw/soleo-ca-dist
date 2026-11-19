@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "deepseek/deepseek-v4.1-flash-1017",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "contextLength": 1048576
+  },
+  "provider": {
+    "provider": "InferenceNet",
+    "tag": "inference-net/fp8",
+    "key": "inference-net~fp8",
+    "name": "InferenceNet | deepseek/deepseek-v4.1-flash-20261017",
+    "quantization": "fp8",
+    "serviceTier": null,
+    "input": 0.08,
+    "output": 0.635,
+    "cacheRead": 0.008,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.2465,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 1040000,
+    "maxCompletionTokens": 393216,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:02:46.552Z",
+    "detail": "models/deepseek/deepseek-v4.1-flash-1017/providers/inference-net~fp8.json"
+  },
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.08,
+        "output": 0.635,
+        "cacheRead": 0.008
+      }
+    }
+  ]
+}

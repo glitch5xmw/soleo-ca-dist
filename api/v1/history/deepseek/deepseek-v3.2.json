@@ -1,0 +1,104 @@
+{
+  "schema": "api/v1/history",
+  "model": {
+    "id": "deepseek/deepseek-v3.2",
+    "name": "DeepSeek: DeepSeek V3.2"
+  },
+  "basis": "blended USD per 1M tokens at 70% input, 30% output",
+  "points": [
+    {
+      "capturedAt": "2026-11-17T23:52:23.322Z",
+      "slug": "2026-11-17T2352Z",
+      "count": 1,
+      "min": 0.296,
+      "median": 0.296,
+      "trimmedMedian": 0.296,
+      "providers": [
+        {
+          "provider": "deepseek",
+          "tag": null,
+          "key": "default",
+          "blended": 0.296
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-17T23:57:58.058Z",
+      "slug": "2026-11-17T2357Z",
+      "count": 1,
+      "min": 0.296,
+      "median": 0.296,
+      "trimmedMedian": 0.296,
+      "providers": [
+        {
+          "provider": "deepseek",
+          "tag": null,
+          "key": "default",
+          "blended": 0.296
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:01:45.728Z",
+      "slug": "2026-11-19T1201Z",
+      "count": 6,
+      "min": 0.23904,
+      "median": 0.309,
+      "trimmedMedian": 0.296,
+      "providers": [
+        {
+          "provider": "GMICloud",
+          "tag": "gmicloud/fp8",
+          "key": "gmicloud~fp8",
+          "blended": 0.23904
+        },
+        {
+          "provider": "SiliconFlow",
+          "tag": "siliconflow/fp8",
+          "key": "siliconflow~fp8",
+          "blended": 0.4213
+        },
+        {
+          "provider": "DeepInfra",
+          "tag": "deepinfra/fp4",
+          "key": "deepinfra~fp4",
+          "blended": 0.296
+        },
+        {
+          "provider": "AtlasCloud",
+          "tag": "atlas-cloud/fp8",
+          "key": "atlas-cloud~fp8",
+          "blended": 0.296
+        },
+        {
+          "provider": "Baidu",
+          "tag": "baidu/fp8",
+          "key": "baidu~fp8",
+          "blended": 0.322
+        },
+        {
+          "provider": "DigitalOcean",
+          "tag": "digitalocean",
+          "key": "digitalocean",
+          "blended": 0.498
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-11-19T12:02:46.552Z",
+      "slug": "2026-11-19T1202Z",
+      "count": 1,
+      "min": 0.296,
+      "median": 0.296,
+      "trimmedMedian": 0.296,
+      "providers": [
+        {
+          "provider": "deepseek",
+          "tag": null,
+          "key": "default",
+          "blended": 0.296
+        }
+      ]
+    }
+  ]
+}

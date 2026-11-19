@@ -1,0 +1,60 @@
+{
+  "schema": "api/v1/providers",
+  "model": {
+    "id": "qwen/qwen3.7-flash",
+    "name": "Qwen: Qwen3.7 Flash",
+    "contextLength": 1000000
+  },
+  "capturedAt": "2026-11-19T12:02:46.552Z",
+  "observedAt": "2026-11-19T12:02:46.552Z",
+  "providers": [
+    {
+      "provider": "qwen",
+      "tag": null,
+      "key": "default",
+      "name": null,
+      "quantization": null,
+      "serviceTier": null,
+      "input": 0.03,
+      "output": 0.13,
+      "cacheRead": 0.006,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.06,
+      "throughput": null,
+      "latency": null,
+      "uptime": null,
+      "contextLength": 1000000,
+      "maxCompletionTokens": null,
+      "supportsImplicitCaching": null,
+      "status": null,
+      "tierCount": 3,
+      "observedAt": "2026-11-19T12:02:46.552Z",
+      "detail": "models/qwen/qwen3.7-flash/providers/default.json"
+    },
+    {
+      "provider": "Alibaba",
+      "tag": "alibaba",
+      "key": "alibaba",
+      "name": "Alibaba | qwen/qwen3.7-flash-20260727",
+      "quantization": "unknown",
+      "serviceTier": null,
+      "input": 0.03,
+      "output": 0.13,
+      "cacheRead": 0.006,
+      "cacheWrite": null,
+      "discount": null,
+      "blended": 0.06,
+      "throughput": null,
+      "latency": null,
+      "uptime": 100,
+      "contextLength": 1000000,
+      "maxCompletionTokens": 65536,
+      "supportsImplicitCaching": false,
+      "status": 0,
+      "tierCount": 3,
+      "observedAt": "2026-11-19T12:01:45.728Z",
+      "detail": "models/qwen/qwen3.7-flash/providers/alibaba.json"
+    }
+  ]
+}

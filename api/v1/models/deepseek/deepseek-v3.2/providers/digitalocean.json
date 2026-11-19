@@ -1,0 +1,43 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "deepseek/deepseek-v3.2",
+    "name": "DeepSeek: DeepSeek V3.2",
+    "contextLength": 163840
+  },
+  "provider": {
+    "provider": "DigitalOcean",
+    "tag": "digitalocean",
+    "key": "digitalocean",
+    "name": "DigitalOcean | deepseek/deepseek-v3.2-20251201",
+    "quantization": "unknown",
+    "serviceTier": null,
+    "input": 0.3,
+    "output": 0.96,
+    "cacheRead": 0.09,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 0.498,
+    "throughput": null,
+    "latency": null,
+    "uptime": 100,
+    "contextLength": 163840,
+    "maxCompletionTokens": 147456,
+    "supportsImplicitCaching": true,
+    "status": 0,
+    "tierCount": 1,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/deepseek/deepseek-v3.2/providers/digitalocean.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 0.3,
+        "output": 0.96,
+        "cacheRead": 0.09
+      }
+    }
+  ]
+}

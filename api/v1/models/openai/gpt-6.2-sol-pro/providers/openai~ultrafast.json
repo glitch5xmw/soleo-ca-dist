@@ -1,0 +1,51 @@
+{
+  "schema": "api/v1/endpoint",
+  "model": {
+    "id": "openai/gpt-6.2-sol-pro",
+    "name": "OpenAI: GPT-6.2 Sol Pro",
+    "contextLength": 1050000
+  },
+  "provider": {
+    "provider": "OpenAI",
+    "tag": "openai/ultrafast",
+    "key": "openai~ultrafast",
+    "name": "OpenAI | openai/gpt-6.2-sol-pro-20261117",
+    "quantization": "unknown",
+    "serviceTier": "ultrafast",
+    "input": 6,
+    "output": 30,
+    "cacheRead": 0.3,
+    "cacheWrite": null,
+    "discount": null,
+    "blended": 13.2,
+    "throughput": null,
+    "latency": null,
+    "uptime": null,
+    "contextLength": 1050000,
+    "maxCompletionTokens": 128000,
+    "supportsImplicitCaching": false,
+    "status": 0,
+    "tierCount": 2,
+    "observedAt": "2026-11-19T12:01:45.728Z",
+    "detail": "models/openai/gpt-6.2-sol-pro/providers/openai~ultrafast.json"
+  },
+  "observedAt": "2026-11-19T12:01:45.728Z",
+  "tiers": [
+    {
+      "minContextTokens": 0,
+      "pricing": {
+        "input": 6,
+        "output": 30,
+        "cacheRead": 0.3
+      }
+    },
+    {
+      "minContextTokens": 272000,
+      "pricing": {
+        "input": 12,
+        "output": 45,
+        "cacheRead": 0.6
+      }
+    }
+  ]
+}
